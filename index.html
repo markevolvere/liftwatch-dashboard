@@ -10,35 +10,35 @@
   <script src="js/charts.js"></script>
 </head>
 <body>
+  <!-- HEADER — COMPACT ON MOBILE -->
   <header>
-    <div class="container">
-      <div class="header-left">
-        <h1>LiftWatch</h1>
-        <div class="header-meta">
-          <span id="meta-updated">Last updated: —</span> • 
-          <span id="meta-total">— jobs tracked</span>
-        </div>
+    <div class="header-left">
+      <h1>LiftWatch</h1>
+      <div class="header-meta">
+        <span id="meta-updated">Updated: —</span> • <span id="meta-total">— jobs</span>
       </div>
-      <nav>
-        <a href="/" class="nav-link">Overview</a>
-        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
-        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
-        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
-        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
-        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
-      </nav>
     </div>
   </header>
 
+  <!-- TAB NAVIGATION — STICKY, HORIZONTAL, SCROLLABLE ON MOBILE -->
+  <nav class="tab-nav">
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/" class="nav-link">Overview</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a></div>
+  </nav>
+
   <main>
     <div class="container">
-      <!-- Hero -->
+      <!-- HERO -->
       <section class="hero">
-        <h2>Competitive Intelligence Portal</h2>
-        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">Real-time tracking of job openings across the Australian residential lift industry. Monitor competitor hiring patterns, identify talent pipeline trends, and track market activity across all major operators.</p>
+        <h2>Competitive Intelligence</h2>
+        <p>Real-time tracking of job openings across the Australian residential lift industry. Monitor competitor hiring patterns, identify talent pipelines, and track market activity.</p>
       </section>
 
-      <!-- Key Stats -->
+      <!-- KEY STATS — 2-COL ON MOBILE, 6-COL ON DESKTOP -->
       <section>
         <div class="stat-cards">
           <div class="card">
@@ -47,7 +47,7 @@
           </div>
           <div class="card">
             <div class="card-value" id="stat-active">0</div>
-            <div class="card-label">Active This Month</div>
+            <div class="card-label">Active (Month)</div>
           </div>
           <div class="card">
             <div class="card-value" id="stat-companies">0</div>
@@ -68,7 +68,7 @@
         </div>
       </section>
 
-      <!-- Charts Grid -->
+      <!-- CHARTS GRID -->
       <section>
         <h2>Market Overview</h2>
         <div class="charts-grid">
@@ -77,7 +77,7 @@
             <canvas id="chart-timeline"></canvas>
           </div>
           <div class="chart-container">
-            <h3>Top 10 Companies</h3>
+            <h3>Top Companies</h3>
             <canvas id="chart-companies"></canvas>
           </div>
           <div class="chart-container">
@@ -91,32 +91,17 @@
         </div>
       </section>
 
-      <!-- Recent Jobs Table -->
+      <!-- RECENT JOBS -->
       <section>
         <h2>Recent Job Postings</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Company</th>
-              <th>Category</th>
-              <th>Location</th>
-              <th>Posted</th>
-              <th>Source</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody id="recent-jobs-table">
-            <tr><td colspan="7" class="text-center" style="padding: var(--spacing-lg);">Loading...</td></tr>
-          </tbody>
-        </table>
+        <div id="recent-jobs-list"></div>
       </section>
     </div>
   </main>
 
   <footer>
     <p><strong>LiftWatch Intelligence Portal</strong> — Australian residential lift industry competitive analysis. Data updated daily from major job boards (SEEK, Indeed, Jora) and company career pages.</p>
-    <p style="margin-top: var(--spacing-md); color: #9ca3af;">See <a href="/liftwatch-dashboard/methodology.html">Methodology</a> for data sources and collection processes.</p>
+    <p style="margin-top: var(--spacing-sm); color: var(--color-gray);">See <a href="/liftwatch-dashboard/methodology.html" style="color: var(--color-accent); text-decoration: none;">Methodology</a> for data sources and collection processes.</p>
   </footer>
 
   <script>
@@ -127,8 +112,8 @@
       const analytics = data.analytics;
 
       // Update header meta
-      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
-      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+      document.getElementById('meta-updated').textContent = `Updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs`;
 
       // Update stat cards
       document.getElementById('stat-total').textContent = jobs.length;
@@ -140,7 +125,7 @@
       document.getElementById('stat-active').textContent = activeThisMonth;
       
       document.getElementById('stat-companies').textContent = meta.companies;
-      document.getElementById('stat-top-company').textContent = analytics.byCompany.length > 0 ? analytics.byCompany[0][0] : '—';
+      document.getElementById('stat-top-company').textContent = analytics.byCompany.length > 0 ? analytics.byCompany[0][0].substring(0, 12) : '—';
       document.getElementById('stat-top-state').textContent = analytics.byState.length > 0 ? analytics.byState[0][0] : '—';
       document.getElementById('stat-top-category').textContent = analytics.byCategory.length > 0 ? analytics.byCategory[0][0] : '—';
 
@@ -150,27 +135,37 @@
       if (analytics.byCategory.length > 0) createCategoryDoughnut('chart-categories', analytics.byCategory);
       if (analytics.byState.length > 0) createStateChart('chart-states', analytics.byState);
 
-      // Recent jobs table (last 10)
+      // Recent jobs as cards (last 6)
       const recent = jobs.sort((a, b) => {
         const dateA = new Date(a.date_posted || 0);
         const dateB = new Date(b.date_posted || 0);
         return dateB - dateA;
-      }).slice(0, 10);
+      }).slice(0, 6);
 
-      const tbody = document.getElementById('recent-jobs-table');
-      tbody.innerHTML = recent.map(job => `
-        <tr>
-          <td><strong>${job.title}</strong></td>
-          <td>${job.company}</td>
-          <td><span class="badge">${job.category}</span></td>
-          <td>${job.location}</td>
-          <td><span class="text-small text-gray">${formatDate(job.date_posted)}</span></td>
-          <td><span class="text-small">${job.source}</span></td>
-          <td><span class="badge ${job.status === 'new' ? 'new' : 'active'}">${job.status}</span></td>
-        </tr>
+      const recentList = document.getElementById('recent-jobs-list');
+      recentList.innerHTML = recent.map(job => `
+        <div class="job-card">
+          <div class="job-card-header">
+            <div class="job-card-summary">
+              <div class="job-card-title">${escapeHtml(job.title)}</div>
+              <a href="/liftwatch-dashboard/jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+              <div class="job-card-meta">
+                <span class="job-card-meta-item"><strong>${job.category || '—'}</strong></span>
+                <span class="job-card-meta-item">${job.location || '—'}</span>
+                <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
+              </div>
+            </div>
+            <div class="job-card-toggle">›</div>
+          </div>
+        </div>
       `).join('');
 
       setActiveNav('index');
+    }
+
+    function escapeHtml(text) {
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+      return text.replace(/[&<>"']/g, m => map[m]);
     }
 
     initIndex().catch(err => console.error('Error loading index:', err));

@@ -8,49 +8,67 @@
   <script src="js/app.js"></script>
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <div class="container">
-      <div class="header-left">
-        <h1>LiftWatch</h1>
-        <div class="header-meta">
-          <span id="meta-updated">Last updated: —</span> • 
-          <span id="meta-total">— jobs tracked</span>
-        </div>
+    <div class="header-left">
+      <h1>LiftWatch</h1>
+      <div class="header-meta">
+        <span id="meta-updated">Updated: —</span> • <span id="meta-total">— jobs</span>
       </div>
-      <nav>
-        <a href="/liftwatch-dashboard/" class="nav-link">Overview</a>
-        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
-        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
-        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
-        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
-        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
-      </nav>
     </div>
   </header>
+
+  <!-- TAB NAVIGATION -->
+  <nav class="tab-nav">
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/" class="nav-link">Overview</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a></div>
+    <div class="tab-nav-item"><a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a></div>
+  </nav>
 
   <main>
     <div class="container">
       <section>
         <h2>Job Directory</h2>
         
-        <!-- Search Bar -->
+        <!-- SEARCH BAR — ALWAYS VISIBLE -->
         <div class="search-bar">
-          <input type="search" id="search-input" placeholder="Search title, company, location, or category...">
+          <input type="search" id="search-input" placeholder="Search title, company, location..." autocomplete="off">
         </div>
 
-        <!-- Filters -->
-        <div class="filter-row">
-          <select id="filter-company" data-placeholder="All Companies"></select>
-          <select id="filter-category" data-placeholder="All Categories"></select>
-          <select id="filter-state" data-placeholder="All States"></select>
-          <select id="filter-source" data-placeholder="All Sources"></select>
-          <select id="filter-status" data-placeholder="All Statuses"></select>
+        <!-- FILTER TOGGLE BUTTON (MOBILE) -->
+        <div style="margin-bottom: var(--spacing-md); display: flex; gap: var(--spacing-sm);">
+          <button id="filter-toggle-btn" class="btn-secondary" style="flex: 1; justify-content: center;">
+            Filters ▾
+          </button>
+          <button id="clear-all-btn" class="btn-secondary" style="flex: 1; justify-content: center;">
+            Clear All
+          </button>
         </div>
 
-        <!-- Results -->
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-lg);">
-          <div><strong id="results-count">0</strong> jobs found</div>
-          <div>
+        <!-- FILTER DRAWER (MOBILE) -->
+        <div class="filter-drawer" id="filter-drawer">
+          <button class="filter-drawer-close" id="filter-drawer-close">✕</button>
+          <h3>Filter By</h3>
+          <select id="filter-company" data-placeholder="Company"></select>
+          <select id="filter-category" data-placeholder="Category"></select>
+          <select id="filter-state" data-placeholder="State"></select>
+          <select id="filter-source" data-placeholder="Source"></select>
+          <select id="filter-status" data-placeholder="Status"></select>
+        </div>
+        <div class="filter-drawer-backdrop" id="filter-drawer-backdrop"></div>
+
+        <!-- ACTIVE FILTERS (CHIPS) -->
+        <div class="filter-chips" id="filter-chips"></div>
+
+        <!-- RESULTS HEADER -->
+        <div class="results-header">
+          <div class="results-header-left">
+            <strong id="results-count">0</strong> jobs found
+          </div>
+          <div class="results-header-right">
             <select id="sort-select" style="width: auto;">
               <option value="date-desc">Newest First</option>
               <option value="date-asc">Oldest First</option>
@@ -60,25 +78,10 @@
           </div>
         </div>
 
-        <!-- Jobs Table -->
-        <table>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Company</th>
-              <th>Category</th>
-              <th>Location</th>
-              <th>Posted</th>
-              <th>Source</th>
-              <th>Status</th>
-            </tr>
-          </thead>
-          <tbody id="jobs-table">
-            <tr><td colspan="7" class="text-center" style="padding: var(--spacing-lg);">Loading...</td></tr>
-          </tbody>
-        </table>
+        <!-- JOBS LIST (EXPANDABLE CARDS) -->
+        <div id="jobs-list"></div>
 
-        <!-- Pagination -->
+        <!-- PAGINATION -->
         <div class="pagination" id="pagination"></div>
       </section>
     </div>
@@ -90,40 +93,42 @@
 
   <script>
     let currentPage = 1;
-    const perPage = 50;
+    const perPage = 20;
     let filteredJobs = [];
+    let allJobs = [];
+    let activeFilters = {};
 
     async function initJobs() {
       const data = await loadData();
-      const jobs = data.jobs;
+      allJobs = data.jobs;
       const meta = data.meta;
 
-      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
-      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+      // Update header meta
+      document.getElementById('meta-updated').textContent = `Updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs`;
 
-      // Build dropdowns
-      buildSelect(document.getElementById('filter-company'), getUnique(jobs, 'company'));
-      buildSelect(document.getElementById('filter-category'), getUnique(jobs, 'category'));
-      buildSelect(document.getElementById('filter-state'), getUnique(jobs, 'state'));
-      buildSelect(document.getElementById('filter-source'), getUnique(jobs, 'source'));
-      buildSelect(document.getElementById('filter-status'), getUnique(jobs, 'status'));
+      // Build filter dropdowns
+      buildSelect(document.getElementById('filter-company'), getUnique(allJobs, 'company'));
+      buildSelect(document.getElementById('filter-category'), getUnique(allJobs, 'category'));
+      buildSelect(document.getElementById('filter-state'), getUnique(allJobs, 'state'));
+      buildSelect(document.getElementById('filter-source'), getUnique(allJobs, 'source'));
+      buildSelect(document.getElementById('filter-status'), getUnique(allJobs, 'status'));
 
       // Event listeners
       const applyFilters = () => {
         currentPage = 1;
-        const query = document.getElementById('search-input').value;
-        let results = searchJobs(jobs, query);
-        
-        const filters = {
+        activeFilters = {
           company: document.getElementById('filter-company').value,
           category: document.getElementById('filter-category').value,
           state: document.getElementById('filter-state').value,
           source: document.getElementById('filter-source').value,
           status: document.getElementById('filter-status').value
         };
-        
-        results = filterJobs(results, filters);
-        
+
+        const query = document.getElementById('search-input').value;
+        let results = searchJobs(allJobs, query);
+        results = filterJobs(results, activeFilters);
+
         // Sort
         const sortBy = document.getElementById('sort-select').value;
         switch(sortBy) {
@@ -139,9 +144,10 @@
           default: // date-desc
             results.sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted));
         }
-        
+
         filteredJobs = results;
-        renderTable();
+        renderJobs();
+        updateFilterChips();
       };
 
       document.getElementById('search-input').addEventListener('input', applyFilters);
@@ -152,29 +158,83 @@
       document.getElementById('filter-status').addEventListener('change', applyFilters);
       document.getElementById('sort-select').addEventListener('change', applyFilters);
 
+      // Filter drawer toggle
+      const filterDrawer = document.getElementById('filter-drawer');
+      const filterToggleBtn = document.getElementById('filter-toggle-btn');
+      const filterDrawerClose = document.getElementById('filter-drawer-close');
+      const filterDrawerBackdrop = document.getElementById('filter-drawer-backdrop');
+
+      filterToggleBtn.addEventListener('click', () => {
+        filterDrawer.classList.toggle('open');
+      });
+
+      filterDrawerClose.addEventListener('click', () => {
+        filterDrawer.classList.remove('open');
+      });
+
+      filterDrawerBackdrop.addEventListener('click', () => {
+        filterDrawer.classList.remove('open');
+      });
+
+      // Clear all filters
+      document.getElementById('clear-all-btn').addEventListener('click', () => {
+        document.getElementById('search-input').value = '';
+        document.getElementById('filter-company').value = '';
+        document.getElementById('filter-category').value = '';
+        document.getElementById('filter-state').value = '';
+        document.getElementById('filter-source').value = '';
+        document.getElementById('filter-status').value = '';
+        document.getElementById('sort-select').value = 'date-desc';
+        applyFilters();
+        filterDrawer.classList.remove('open');
+      });
+
       // Initial render
-      filteredJobs = jobs;
-      renderTable();
+      filteredJobs = allJobs;
+      renderJobs();
       setActiveNav('jobs');
     }
 
-    function renderTable() {
+    function renderJobs() {
       document.getElementById('results-count').textContent = filteredJobs.length;
       
       const paged = paginate(filteredJobs, currentPage, perPage);
-      const tbody = document.getElementById('jobs-table');
+      const jobsList = document.getElementById('jobs-list');
       
-      tbody.innerHTML = paged.items.map(job => `
-        <tr>
-          <td><strong>${job.title}</strong></td>
-          <td>${job.company}</td>
-          <td><span class="badge">${job.category}</span></td>
-          <td>${job.location}</td>
-          <td><span class="text-small text-gray">${formatDate(job.date_posted)}</span></td>
-          <td><span class="text-small">${job.source}</span></td>
-          <td><span class="badge ${job.status === 'new' ? 'new' : 'active'}">${job.status}</span></td>
-        </tr>
+      jobsList.innerHTML = paged.items.map((job, idx) => `
+        <div class="job-card" data-job-id="${idx}">
+          <div class="job-card-header">
+            <div class="job-card-summary">
+              <div class="job-card-title">${escapeHtml(job.title)}</div>
+              <a href="/liftwatch-dashboard/jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+              <div class="job-card-meta">
+                <span class="job-card-meta-item"><span class="badge">${job.category || '—'}</span></span>
+                <span class="job-card-meta-item">${job.location || '—'}</span>
+                <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
+              </div>
+            </div>
+            <div class="job-card-toggle">›</div>
+          </div>
+          <div class="job-card-content">
+            ${job.description ? `<div class="job-detail-section"><div class="job-detail-section-title">Description</div><div class="job-detail-section-value">${escapeHtml(job.description).substring(0, 300)}${job.description.length > 300 ? '...' : ''}</div></div>` : ''}
+            ${job.state ? `<div class="job-detail-section"><div class="job-detail-section-title">State</div><div class="job-detail-section-value">${job.state}</div></div>` : ''}
+            ${job.salary_raw ? `<div class="job-detail-section"><div class="job-detail-section-title">Salary</div><div class="job-detail-section-value">${escapeHtml(job.salary_raw)}</div></div>` : ''}
+            <div class="job-detail-section"><div class="job-detail-section-title">Posted</div><div class="job-detail-section-value">${formatDate(job.date_posted)}</div></div>
+            <div class="job-detail-buttons">
+              <a href="${job.url}" target="_blank" rel="noopener" class="btn btn-secondary">View Job</a>
+              ${job.drive_download_url ? `<a href="${job.drive_download_url}" target="_blank" rel="noopener" class="btn btn-pdf">📄 PDF</a>` : ''}
+            </div>
+          </div>
+        </div>
       `).join('');
+
+      // Attach click handlers for expand/collapse
+      document.querySelectorAll('.job-card-header').forEach(header => {
+        header.addEventListener('click', (e) => {
+          if (e.target.closest('.job-card-company')) return; // Don't expand if clicking company link
+          header.closest('.job-card').classList.toggle('expanded');
+        });
+      });
 
       // Pagination
       const paginationEl = document.getElementById('pagination');
@@ -184,20 +244,54 @@
         const prevBtn = document.createElement('button');
         prevBtn.textContent = '← Previous';
         prevBtn.disabled = paged.page === 1;
-        prevBtn.onclick = () => { currentPage--; renderTable(); };
+        prevBtn.onclick = () => { currentPage--; renderJobs(); window.scrollTo(0, 0); };
         paginationEl.appendChild(prevBtn);
 
         const pageInfo = document.createElement('span');
-        pageInfo.style.padding = 'var(--spacing-sm) var(--spacing-md)';
+        pageInfo.style.padding = '0 var(--spacing-md)';
         pageInfo.textContent = `Page ${paged.page} of ${paged.pages}`;
         paginationEl.appendChild(pageInfo);
 
         const nextBtn = document.createElement('button');
         nextBtn.textContent = 'Next →';
         nextBtn.disabled = paged.page === paged.pages;
-        nextBtn.onclick = () => { currentPage++; renderTable(); };
+        nextBtn.onclick = () => { currentPage++; renderJobs(); window.scrollTo(0, 0); };
         paginationEl.appendChild(nextBtn);
       }
+    }
+
+    function updateFilterChips() {
+      const chipsContainer = document.getElementById('filter-chips');
+      const chips = [];
+
+      if (activeFilters.company) chips.push({ label: activeFilters.company, key: 'company' });
+      if (activeFilters.category) chips.push({ label: activeFilters.category, key: 'category' });
+      if (activeFilters.state) chips.push({ label: activeFilters.state, key: 'state' });
+      if (activeFilters.source) chips.push({ label: activeFilters.source, key: 'source' });
+      if (activeFilters.status) chips.push({ label: activeFilters.status, key: 'status' });
+
+      chipsContainer.innerHTML = chips.map(chip => `
+        <div class="filter-chip">
+          ${chip.label}
+          <span class="filter-chip-remove" data-key="${chip.key}">✕</span>
+        </div>
+      `).join('');
+
+      document.querySelectorAll('.filter-chip-remove').forEach(el => {
+        el.addEventListener('click', () => {
+          const key = el.getAttribute('data-key');
+          document.getElementById('filter-' + key).value = '';
+          currentPage = 1;
+          const applyFiltersEvent = new Event('change');
+          document.getElementById('filter-' + key).dispatchEvent(applyFiltersEvent);
+        });
+      });
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+      return text.replace(/[&<>"']/g, m => map[m]);
     }
 
     initJobs().catch(err => console.error('Error loading jobs:', err));
