@@ -221,12 +221,14 @@
         applyFilters();
       });
 
-      // Apply URL query params — must happen after dropdowns are built
+      // Apply URL query params OR sessionStorage company filter (cross-page nav without reload)
       const urlParams = new URLSearchParams(window.location.search);
-      const urlCompany = urlParams.get('company');
+      const urlCompany = urlParams.get('company') || sessionStorage.getItem('filterCompany');
+      sessionStorage.removeItem('filterCompany'); // consume it
       if (urlCompany) {
         document.getElementById('filter-company').value = urlCompany;
         activeFilters.company = urlCompany;
+        updateFilterChips();
       }
 
       // Initial render

@@ -134,12 +134,12 @@
         const topState = Object.entries(company.states).sort((a, b) => b[1] - a[1])[0];
 
         return `
-          <a href="jobs.html?company=${encodeURIComponent(company.name)}" class="company-card">
+          <div onclick="sessionStorage.setItem('filterCompany', company.name); window.location.href='jobs.html';" class="company-card" style="cursor:pointer;">
             <div class="company-card-name">${escapeHtml(company.name)}</div>
             <div class="company-card-stat"><strong>${company.count}</strong> job${company.count !== 1 ? 's' : ''}</div>
             ${topCategory ? `<div class="company-card-stat">Top role: <strong>${topCategory[0]}</strong></div>` : ''}
             ${topState ? `<div class="company-card-stat">Top state: <strong>${topState[0]}</strong></div>` : ''}
-          </a>
+          </div>
         `;
       }).join('');
     }
