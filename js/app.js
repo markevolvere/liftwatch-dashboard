@@ -6,7 +6,7 @@ let dataCache = null;
 async function loadData() {
   if (dataCache) return dataCache;
   const base = window.location.pathname.replace(/\/[^/]*$/, '');
-  const response = await fetch(base + '/data.json?v=' + Date.now());
+  const response = await fetch('data.json?v=' + Date.now());
   dataCache = await response.json();
   return dataCache;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script>if(!sessionStorage.getItem("lw_auth")){window.location.href="login.html";}</script>
+<head><script>if(!localStorage.getItem("lw_auth")){window.location.href="login.html?next="+encodeURIComponent(location.pathname+location.search);};</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Deep Analytics — LiftWatch</title>
@@ -20,12 +20,12 @@
   </header>
 
   <nav class="tab-nav">
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/" class="nav-link">Overview</a></div>
+    <div class="tab-nav-item"><a href="index.html" class="nav-link">Overview</a></div>
     <div class="tab-nav-item"><a href="jobs.html" class="nav-link">Jobs</a></div>
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a></div>
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a></div>
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a></div>
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a></div>
+    <div class="tab-nav-item"><a href="companies.html" class="nav-link">Companies</a></div>
+    <div class="tab-nav-item"><a href="analytics.html" class="nav-link">Analytics</a></div>
+    <div class="tab-nav-item"><a href="downloads.html" class="nav-link">Downloads</a></div>
+    <div class="tab-nav-item"><a href="methodology.html" class="nav-link">Methodology</a></div>
   </nav>
 
   <main>
