@@ -21,7 +21,7 @@
   <!-- TAB NAVIGATION -->
   <nav class="tab-nav">
     <div class="tab-nav-item"><a href="/liftwatch-dashboard/" class="nav-link">Overview</a></div>
-    <div class="tab-nav-item"><a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a></div>
+    <div class="tab-nav-item"><a href="jobs.html" class="nav-link">Jobs</a></div>
     <div class="tab-nav-item"><a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a></div>
     <div class="tab-nav-item"><a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a></div>
     <div class="tab-nav-item"><a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a></div>
@@ -113,6 +113,14 @@
       buildSelect(document.getElementById('filter-state'), getUnique(allJobs, 'state'));
       buildSelect(document.getElementById('filter-source'), getUnique(allJobs, 'source'));
       buildSelect(document.getElementById('filter-status'), getUnique(allJobs, 'status'));
+
+      // Apply URL query params (e.g. ?company=Schindler from clicking company name)
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlCompany = urlParams.get('company');
+      if (urlCompany) {
+        document.getElementById('filter-company').value = urlCompany;
+        activeFilters.company = urlCompany;
+      }
 
       // Event listeners
       const applyFilters = () => {
@@ -216,7 +224,7 @@
               <div class="job-card-summary">
                 <div class="job-card-title">${escapeHtml(job.title)}</div>
                 <div class="job-card-meta-top">
-                  <a href="/liftwatch-dashboard/jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+                  <a href="jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
                   <span class="job-card-meta-item"><span class="badge">${job.category || '—'}</span></span>
                   <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
                 </div>
