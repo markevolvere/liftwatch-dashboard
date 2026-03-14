@@ -44,7 +44,7 @@ header {
   background: var(--color-bg);
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 102;
 }
 
 header .container {
@@ -75,7 +75,7 @@ header .container {
   background: var(--color-bg);
   position: sticky;
   top: 56px;
-  z-index: 99;
+  z-index: 101;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
@@ -306,12 +306,16 @@ tbody tr:hover {
   font-size: 13px;
   color: var(--color-accent);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
+  border-bottom: 2px solid var(--color-accent);
+  padding-bottom: 2px;
+  transition: all 0.2s;
 }
 
 .job-card-company:hover {
-  text-decoration: underline;
+  color: #1a3557;
+  border-bottom-color: #1a3557;
 }
 
 .job-card-meta-top {
@@ -356,7 +360,7 @@ tbody tr:hover {
   align-items: center;
   justify-content: center;
   padding: 11px var(--spacing-md);
-  background: var(--color-accent);
+  background: #10b981;
   color: white;
   text-decoration: none;
   border: none;
@@ -369,7 +373,29 @@ tbody tr:hover {
 }
 
 .btn-pdf-download:hover {
-  background: #1a3557;
+  background: #059669;
+}
+
+.btn-pdf-folder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px var(--spacing-md);
+  background: #9ca3af;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-pdf-folder:hover {
+  background: #6b7280;
 }
 
 .job-card-expand-btn {
@@ -753,34 +779,60 @@ button:disabled {
 
 /* COMPANY CARDS */
 .company-card {
-  background: var(--color-bg-alt);
+  background: var(--color-bg);
   border: 1px solid var(--color-border);
   padding: var(--spacing-md);
   border-radius: 4px;
-  margin-bottom: var(--spacing-md);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: all 0.3s;
   text-decoration: none;
   color: inherit;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.company-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-light));
+  transition: height 0.3s;
 }
 
 .company-card:hover {
-  background: var(--color-accent-light);
+  background: var(--color-bg-alt);
   border-color: var(--color-accent);
+  box-shadow: 0 4px 12px rgba(45, 74, 138, 0.15);
+  transform: translateY(-2px);
+}
+
+.company-card:hover::before {
+  height: 6px;
 }
 
 .company-card-name {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--color-accent);
-  margin-bottom: var(--spacing-sm);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+  padding-top: var(--spacing-xs);
 }
 
 .company-card-stat {
   font-size: 12px;
   color: var(--color-gray);
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+}
+
+.company-card-stat strong {
+  color: var(--color-accent);
+  font-weight: 600;
 }
 
 /* RESPONSIVE — TABLET & DESKTOP */
