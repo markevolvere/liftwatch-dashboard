@@ -5,7 +5,8 @@ let dataCache = null;
 // Load data from data.json
 async function loadData() {
   if (dataCache) return dataCache;
-  const response = await fetch('/liftwatch-dashboard/data.json');
+  const base = window.location.pathname.replace(/\/[^/]*$/, '');
+  const response = await fetch(base + '/data.json?v=' + Date.now());
   dataCache = await response.json();
   return dataCache;
 }
