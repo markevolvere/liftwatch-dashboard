@@ -148,7 +148,7 @@
           <div class="job-card-header">
             <div class="job-card-summary">
               <div class="job-card-title">${escapeHtml(job.title)}</div>
-              <a href="jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+              <a onclick="window.location.href='jobs.html?company='+encodeURIComponent('"+job.company+"')" class="job-card-company">${escapeHtml(job.company)}</a>
               <div class="job-card-meta">
                 <span class="job-card-meta-item"><strong>${job.category || '—'}</strong></span>
                 <span class="job-card-meta-item">${job.location || '—'}</span>

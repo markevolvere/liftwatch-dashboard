@@ -114,14 +114,6 @@
       buildSelect(document.getElementById('filter-source'), getUnique(allJobs, 'source'));
       buildSelect(document.getElementById('filter-status'), getUnique(allJobs, 'status'));
 
-      // Apply URL query params (e.g. ?company=Schindler from clicking company name)
-      const urlParams = new URLSearchParams(window.location.search);
-      const urlCompany = urlParams.get('company');
-      if (urlCompany) {
-        document.getElementById('filter-company').value = urlCompany;
-        activeFilters.company = urlCompany;
-      }
-
       // Event listeners
       const applyFilters = () => {
         currentPage = 1;
@@ -197,8 +189,18 @@
         filterDrawer.classList.remove('open');
       });
 
+      // Apply URL query params — must happen after dropdowns are built
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlCompany = urlParams.get('company');
+      if (urlCompany) {
+        document.getElementById('filter-company').value = urlCompany;
+        activeFilters.company = urlCompany;
+        // Show active filter chip
+        document.getElementById('filter-company').dispatchEvent(new Event('change'));
+      }
+
       // Initial render
-      filteredJobs = allJobs;
+      filteredJobs = urlCompany ? filterJobs(allJobs, activeFilters) : allJobs;
       renderJobs();
       setActiveNav('jobs');
     }
@@ -224,7 +226,7 @@
               <div class="job-card-summary">
                 <div class="job-card-title">${escapeHtml(job.title)}</div>
                 <div class="job-card-meta-top">
-                  <a href="jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+                  <span class="job-card-company" onclick="filterByCompany('${job.company.replace(/'/g,"\\'")}'); return false;">${escapeHtml(job.company)}</span>
                   <span class="job-card-meta-item"><span class="badge">${job.category || '—'}</span></span>
                   <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
                 </div>
@@ -316,6 +318,15 @@
           document.getElementById('filter-' + key).dispatchEvent(applyFiltersEvent);
         });
       });
+    }
+
+    function filterByCompany(company) {
+      document.getElementById('filter-company').value = company;
+      activeFilters.company = company;
+      filteredJobs = filterJobs(allJobs, activeFilters);
+      currentPage = 1;
+      renderJobs();
+      window.scrollTo(0, 0);
     }
 
     function escapeHtml(text) {
