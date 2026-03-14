@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deep Analytics — LiftWatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/charts.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <h1>LiftWatch</h1>
+        <div class="header-meta">
+          <span id="meta-updated">Last updated: —</span> • 
+          <span id="meta-total">— jobs tracked</span>
+        </div>
+      </div>
+      <nav>
+        <a href="/liftwatch-dashboard/" class="nav-link">Overview</a>
+        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
+        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
+        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
+        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
+        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Deep Market Analytics</h2>
+        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">Detailed analysis of hiring trends, company activity, and market composition across the Australian lift industry.</p>
+      </section>
+
+      <!-- Full-width charts -->
+      <section>
+        <div class="chart-container" style="margin-bottom: var(--spacing-lg);">
+          <h3>Jobs Posted Over Time — All Data</h3>
+          <canvas id="chart-timeline-full"></canvas>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-lg); margin-bottom: var(--spacing-xl);">
+          <div class="chart-container">
+            <h3>Top Companies by Volume</h3>
+            <canvas id="chart-companies-full"></canvas>
+          </div>
+
+          <div class="chart-container">
+            <h3>Jobs by Category</h3>
+            <canvas id="chart-categories-full"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-container" style="margin-bottom: var(--spacing-lg);">
+          <h3>Jobs by State</h3>
+          <canvas id="chart-states-full"></canvas>
+        </div>
+      </section>
+
+      <!-- Category x State Heatmap -->
+      <section>
+        <h2>Category × State Analysis</h2>
+        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">Job distribution across categories and states.</p>
+        <table>
+          <thead id="heatmap-head"></thead>
+          <tbody id="heatmap-body"></tbody>
+        </table>
+      </section>
+
+      <!-- Company Activity Table -->
+      <section>
+        <h2>Company Activity Summary</h2>
+        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">Total jobs, current month activity, and dominant categories for each company.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Total Jobs</th>
+              <th>This Month</th>
+              <th>Top Category</th>
+              <th>Top State</th>
+            </tr>
+          </thead>
+          <tbody id="company-activity-table"></tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>LiftWatch Intelligence Portal</strong> — Australian residential lift industry competitive analysis. Data updated daily.</p>
+  </footer>
+
+  <script>
+    async function initAnalytics() {
+      const data = await loadData();
+      const jobs = data.jobs;
+      const meta = data.meta;
+      const analytics = data.analytics;
+
+      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+
+      // Create main charts
+      if (analytics.timeline.length > 0) createTimelineChart('chart-timeline-full', analytics.timeline);
+      if (analytics.byCompany.length > 0) createCompanyChart('chart-companies-full', analytics.byCompany, 15);
+      if (analytics.byCategory.length > 0) createCategoryChart('chart-categories-full', analytics.byCategory);
+      if (analytics.byState.length > 0) createStateChart('chart-states-full', analytics.byState);
+
+      // Category x State Heatmap
+      const categories = getUnique(jobs, 'category');
+      const states = getUnique(jobs, 'state');
+      
+      const heatmapHead = document.getElementById('heatmap-head');
+      heatmapHead.innerHTML = '<tr><th>Category</th>' + 
+        states.map(s => `<th class="text-center">${s}</th>`).join('') + 
+        '</tr>';
+
+      const heatmapBody = document.getElementById('heatmap-body');
+      heatmapBody.innerHTML = categories.map(cat => {
+        const row = `<tr><td><strong>${cat}</strong></td>`;
+        const cells = states.map(state => {
+          const count = jobs.filter(j => j.category === cat && j.state === state).length;
+          const bgColor = count === 0 ? 'transparent' : count < 3 ? '#dbeafe' : count < 6 ? '#93c5fd' : '#3b82f6';
+          const textColor = count < 6 ? '#1e40af' : '#fff';
+          return `<td class="text-center" style="background: ${bgColor}; color: ${textColor};"><strong>${count}</strong></td>`;
+        }).join('');
+        return row + cells + '</tr>';
+      }).join('');
+
+      // Company Activity Table
+      const companiesByName = {};
+      jobs.forEach(job => {
+        if (!companiesByName[job.company]) {
+          companiesByName[job.company] = [];
+        }
+        companiesByName[job.company].push(job);
+      });
+
+      const now = new Date();
+      const thisMonth = now.toISOString().slice(0, 7);
+
+      const activityTable = document.getElementById('company-activity-table');
+      activityTable.innerHTML = Object.entries(companiesByName)
+        .map(([company, companyJobs]) => {
+          const thisMonthCount = companyJobs.filter(j => j.date_posted && j.date_posted.startsWith(thisMonth)).length;
+          
+          const catCounts = {};
+          companyJobs.forEach(j => {
+            const cat = j.category || 'Uncategorized';
+            catCounts[cat] = (catCounts[cat] || 0) + 1;
+          });
+          const topCat = Object.entries(catCounts).sort((a, b) => b[1] - a[1])[0];
+          
+          const stateCounts = {};
+          companyJobs.forEach(j => {
+            const state = j.state || 'Unknown';
+            stateCounts[state] = (stateCounts[state] || 0) + 1;
+          });
+          const topState = Object.entries(stateCounts).sort((a, b) => b[1] - a[1])[0];
+
+          return `
+            <tr>
+              <td><strong>${company}</strong></td>
+              <td class="text-right">${companyJobs.length}</td>
+              <td class="text-right">${thisMonthCount}</td>
+              <td>${topCat ? topCat[0] : '—'}</td>
+              <td>${topState ? topState[0] : '—'}</td>
+            </tr>
+          `;
+        })
+        .sort((a, b) => {
+          const aCount = parseInt(a.match(/<td class="text-right">(\d+)<\/td>/)[1]);
+          const bCount = parseInt(b.match(/<td class="text-right">(\d+)<\/td>/)[1]);
+          return bCount - aCount;
+        })
+        .join('');
+
+      setActiveNav('analytics');
+    }
+
+    initAnalytics().catch(err => console.error('Error loading analytics:', err));
+  </script>
+</body>
+</html>

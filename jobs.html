@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Directory — LiftWatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <h1>LiftWatch</h1>
+        <div class="header-meta">
+          <span id="meta-updated">Last updated: —</span> • 
+          <span id="meta-total">— jobs tracked</span>
+        </div>
+      </div>
+      <nav>
+        <a href="/liftwatch-dashboard/" class="nav-link">Overview</a>
+        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
+        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
+        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
+        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
+        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Job Directory</h2>
+        
+        <!-- Search Bar -->
+        <div class="search-bar">
+          <input type="search" id="search-input" placeholder="Search title, company, location, or category...">
+        </div>
+
+        <!-- Filters -->
+        <div class="filter-row">
+          <select id="filter-company" data-placeholder="All Companies"></select>
+          <select id="filter-category" data-placeholder="All Categories"></select>
+          <select id="filter-state" data-placeholder="All States"></select>
+          <select id="filter-source" data-placeholder="All Sources"></select>
+          <select id="filter-status" data-placeholder="All Statuses"></select>
+        </div>
+
+        <!-- Results -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--spacing-lg);">
+          <div><strong id="results-count">0</strong> jobs found</div>
+          <div>
+            <select id="sort-select" style="width: auto;">
+              <option value="date-desc">Newest First</option>
+              <option value="date-asc">Oldest First</option>
+              <option value="company-asc">Company A-Z</option>
+              <option value="title-asc">Title A-Z</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Jobs Table -->
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Company</th>
+              <th>Category</th>
+              <th>Location</th>
+              <th>Posted</th>
+              <th>Source</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="jobs-table">
+            <tr><td colspan="7" class="text-center" style="padding: var(--spacing-lg);">Loading...</td></tr>
+          </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div class="pagination" id="pagination"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>LiftWatch Intelligence Portal</strong> — Australian residential lift industry competitive analysis. Data updated daily.</p>
+  </footer>
+
+  <script>
+    let currentPage = 1;
+    const perPage = 50;
+    let filteredJobs = [];
+
+    async function initJobs() {
+      const data = await loadData();
+      const jobs = data.jobs;
+      const meta = data.meta;
+
+      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+
+      // Build dropdowns
+      buildSelect(document.getElementById('filter-company'), getUnique(jobs, 'company'));
+      buildSelect(document.getElementById('filter-category'), getUnique(jobs, 'category'));
+      buildSelect(document.getElementById('filter-state'), getUnique(jobs, 'state'));
+      buildSelect(document.getElementById('filter-source'), getUnique(jobs, 'source'));
+      buildSelect(document.getElementById('filter-status'), getUnique(jobs, 'status'));
+
+      // Event listeners
+      const applyFilters = () => {
+        currentPage = 1;
+        const query = document.getElementById('search-input').value;
+        let results = searchJobs(jobs, query);
+        
+        const filters = {
+          company: document.getElementById('filter-company').value,
+          category: document.getElementById('filter-category').value,
+          state: document.getElementById('filter-state').value,
+          source: document.getElementById('filter-source').value,
+          status: document.getElementById('filter-status').value
+        };
+        
+        results = filterJobs(results, filters);
+        
+        // Sort
+        const sortBy = document.getElementById('sort-select').value;
+        switch(sortBy) {
+          case 'date-asc':
+            results.sort((a, b) => new Date(a.date_posted) - new Date(b.date_posted));
+            break;
+          case 'company-asc':
+            results.sort((a, b) => a.company.localeCompare(b.company));
+            break;
+          case 'title-asc':
+            results.sort((a, b) => a.title.localeCompare(b.title));
+            break;
+          default: // date-desc
+            results.sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted));
+        }
+        
+        filteredJobs = results;
+        renderTable();
+      };
+
+      document.getElementById('search-input').addEventListener('input', applyFilters);
+      document.getElementById('filter-company').addEventListener('change', applyFilters);
+      document.getElementById('filter-category').addEventListener('change', applyFilters);
+      document.getElementById('filter-state').addEventListener('change', applyFilters);
+      document.getElementById('filter-source').addEventListener('change', applyFilters);
+      document.getElementById('filter-status').addEventListener('change', applyFilters);
+      document.getElementById('sort-select').addEventListener('change', applyFilters);
+
+      // Initial render
+      filteredJobs = jobs;
+      renderTable();
+      setActiveNav('jobs');
+    }
+
+    function renderTable() {
+      document.getElementById('results-count').textContent = filteredJobs.length;
+      
+      const paged = paginate(filteredJobs, currentPage, perPage);
+      const tbody = document.getElementById('jobs-table');
+      
+      tbody.innerHTML = paged.items.map(job => `
+        <tr>
+          <td><strong>${job.title}</strong></td>
+          <td>${job.company}</td>
+          <td><span class="badge">${job.category}</span></td>
+          <td>${job.location}</td>
+          <td><span class="text-small text-gray">${formatDate(job.date_posted)}</span></td>
+          <td><span class="text-small">${job.source}</span></td>
+          <td><span class="badge ${job.status === 'new' ? 'new' : 'active'}">${job.status}</span></td>
+        </tr>
+      `).join('');
+
+      // Pagination
+      const paginationEl = document.getElementById('pagination');
+      paginationEl.innerHTML = '';
+      
+      if (paged.pages > 1) {
+        const prevBtn = document.createElement('button');
+        prevBtn.textContent = '← Previous';
+        prevBtn.disabled = paged.page === 1;
+        prevBtn.onclick = () => { currentPage--; renderTable(); };
+        paginationEl.appendChild(prevBtn);
+
+        const pageInfo = document.createElement('span');
+        pageInfo.style.padding = 'var(--spacing-sm) var(--spacing-md)';
+        pageInfo.textContent = `Page ${paged.page} of ${paged.pages}`;
+        paginationEl.appendChild(pageInfo);
+
+        const nextBtn = document.createElement('button');
+        nextBtn.textContent = 'Next →';
+        nextBtn.disabled = paged.page === paged.pages;
+        nextBtn.onclick = () => { currentPage++; renderTable(); };
+        paginationEl.appendChild(nextBtn);
+      }
+    }
+
+    initJobs().catch(err => console.error('Error loading jobs:', err));
+  </script>
+</body>
+</html>

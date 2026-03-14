@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Competitor Profiles — LiftWatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/charts.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <h1>LiftWatch</h1>
+        <div class="header-meta">
+          <span id="meta-updated">Last updated: —</span> • 
+          <span id="meta-total">— jobs tracked</span>
+        </div>
+      </div>
+      <nav>
+        <a href="/liftwatch-dashboard/" class="nav-link">Overview</a>
+        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
+        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
+        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
+        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
+        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Competitor Profiles</h2>
+        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">Summary of hiring activity by company. Click a company to view detailed profile and current openings.</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--spacing-lg);" id="companies-grid">
+          <!-- Companies will be loaded here -->
+        </div>
+      </section>
+
+      <!-- Company Detail Modal -->
+      <section id="company-detail" style="display: none; margin-top: var(--spacing-xl); border-top: 1px solid var(--color-border); padding-top: var(--spacing-lg);">
+        <button onclick="closeCompanyDetail()" class="btn-secondary">← Back to Companies</button>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xl); margin: var(--spacing-lg) 0;">
+          <div>
+            <h2 id="detail-company-name"></h2>
+            <div class="stat-cards" style="grid-template-columns: 1fr;">
+              <div class="card">
+                <div class="card-value" id="detail-total-jobs">0</div>
+                <div class="card-label">Total Jobs Posted</div>
+              </div>
+              <div class="card">
+                <div class="card-value" id="detail-top-category">—</div>
+                <div class="card-label">Most Common Role</div>
+              </div>
+              <div class="card">
+                <div class="card-value" id="detail-top-state">—</div>
+                <div class="card-label">Top Location State</div>
+              </div>
+              <div class="card">
+                <div class="card-value" id="detail-last-active">—</div>
+                <div class="card-label">Last Active</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3>Activity Over Time</h3>
+            <canvas id="detail-sparkline" height="60"></canvas>
+          </div>
+        </div>
+
+        <div class="charts-grid" style="grid-template-columns: 1fr 1fr;">
+          <div class="chart-container">
+            <h3>Current Openings by Category</h3>
+            <table>
+              <thead><tr><th>Category</th><th>Count</th></tr></thead>
+              <tbody id="detail-categories-table"></tbody>
+            </table>
+          </div>
+
+          <div class="chart-container">
+            <h3>Openings by State</h3>
+            <table>
+              <thead><tr><th>State</th><th>Count</th></tr></thead>
+              <tbody id="detail-states-table"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--spacing-lg);">
+          <h3>Current Openings</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Category</th>
+                <th>Location</th>
+                <th>Posted</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="detail-jobs-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>LiftWatch Intelligence Portal</strong> — Australian residential lift industry competitive analysis. Data updated daily.</p>
+  </footer>
+
+  <script>
+    let selectedCompany = null;
+    let allJobs = [];
+
+    async function initCompanies() {
+      const data = await loadData();
+      allJobs = data.jobs;
+      const meta = data.meta;
+
+      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+
+      // Group by company
+      const companiesByName = {};
+      allJobs.forEach(job => {
+        if (!companiesByName[job.company]) {
+          companiesByName[job.company] = [];
+        }
+        companiesByName[job.company].push(job);
+      });
+
+      // Sort by job count
+      const companiesArray = Object.entries(companiesByName)
+        .map(([name, jobs]) => ({ name, jobs, count: jobs.length }))
+        .sort((a, b) => b.count - a.count);
+
+      // Render grid
+      const grid = document.getElementById('companies-grid');
+      grid.innerHTML = companiesArray.map(company => {
+        const lastActive = company.jobs
+          .map(j => new Date(j.date_posted || 0))
+          .sort((a, b) => b - a)[0];
+        
+        return `
+          <div class="card" style="cursor: pointer; transition: background 0.2s;" onclick="showCompanyDetail('${company.name}')">
+            <h3 style="margin: 0 0 var(--spacing-md) 0; color: var(--color-accent);">${company.name}</h3>
+            <div style="margin-bottom: var(--spacing-md);">
+              <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-sm);">
+                <span class="text-small text-gray">Total Jobs</span>
+                <strong>${company.count}</strong>
+              </div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: var(--spacing-sm);">
+                <span class="text-small text-gray">Top Role</span>
+                <strong>${getTopValue(company.jobs, 'category')}</strong>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <span class="text-small text-gray">Top State</span>
+                <strong>${getTopValue(company.jobs, 'state')}</strong>
+              </div>
+            </div>
+            <div style="border-top: 1px solid var(--color-border); padding-top: var(--spacing-md); font-size: 11px; color: var(--color-gray);">
+              Last active: ${formatDate(lastActive.toISOString().split('T')[0])}
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      setActiveNav('companies');
+    }
+
+    function getTopValue(jobs, field) {
+      const counts = {};
+      jobs.forEach(job => {
+        const val = job[field];
+        counts[val] = (counts[val] || 0) + 1;
+      });
+      const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+      return top ? top[0] : '—';
+    }
+
+    function showCompanyDetail(companyName) {
+      selectedCompany = companyName;
+      const jobs = allJobs.filter(j => j.company === companyName);
+      
+      document.getElementById('detail-company-name').textContent = companyName;
+      document.getElementById('detail-total-jobs').textContent = jobs.length;
+      document.getElementById('detail-top-category').textContent = getTopValue(jobs, 'category');
+      document.getElementById('detail-top-state').textContent = getTopValue(jobs, 'state');
+      
+      const lastActive = jobs
+        .map(j => new Date(j.date_posted || 0))
+        .sort((a, b) => b - a)[0];
+      document.getElementById('detail-last-active').textContent = formatDate(lastActive.toISOString().split('T')[0]);
+
+      // Timeline by month
+      const timeline = {};
+      jobs.forEach(job => {
+        if (job.date_posted) {
+          const month = job.date_posted.slice(0, 7);
+          timeline[month] = (timeline[month] || 0) + 1;
+        }
+      });
+      const timelineArray = Object.entries(timeline).sort();
+      if (timelineArray.length > 0 && document.getElementById('detail-sparkline')) {
+        createSparkline('detail-sparkline', timelineArray);
+      }
+
+      // Categories breakdown
+      const categories = {};
+      jobs.forEach(job => {
+        const cat = job.category || 'Uncategorized';
+        categories[cat] = (categories[cat] || 0) + 1;
+      });
+      const categoriesTbody = document.getElementById('detail-categories-table');
+      categoriesTbody.innerHTML = Object.entries(categories)
+        .sort((a, b) => b[1] - a[1])
+        .map(([cat, count]) => `<tr><td>${cat}</td><td class="text-right"><strong>${count}</strong></td></tr>`)
+        .join('');
+
+      // States breakdown
+      const states = {};
+      jobs.forEach(job => {
+        const state = job.state || 'Unknown';
+        states[state] = (states[state] || 0) + 1;
+      });
+      const statesTbody = document.getElementById('detail-states-table');
+      statesTbody.innerHTML = Object.entries(states)
+        .sort((a, b) => b[1] - a[1])
+        .map(([state, count]) => `<tr><td>${state}</td><td class="text-right"><strong>${count}</strong></td></tr>`)
+        .join('');
+
+      // Current jobs
+      const jobsTbody = document.getElementById('detail-jobs-table');
+      jobsTbody.innerHTML = jobs
+        .sort((a, b) => new Date(b.date_posted) - new Date(a.date_posted))
+        .slice(0, 20)
+        .map(job => `
+          <tr>
+            <td><strong>${job.title}</strong></td>
+            <td><span class="badge">${job.category}</span></td>
+            <td>${job.location}</td>
+            <td class="text-small">${formatDate(job.date_posted)}</td>
+            <td><span class="badge ${job.status === 'new' ? 'new' : 'active'}">${job.status}</span></td>
+          </tr>
+        `)
+        .join('');
+
+      document.getElementById('company-detail').style.display = 'block';
+      window.scrollTo(0, 0);
+    }
+
+    function closeCompanyDetail() {
+      selectedCompany = null;
+      document.getElementById('company-detail').style.display = 'none';
+    }
+
+    initCompanies().catch(err => console.error('Error loading companies:', err));
+  </script>
+</body>
+</html>

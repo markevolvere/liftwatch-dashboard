@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Methodology — LiftWatch</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <h1>LiftWatch</h1>
+        <div class="header-meta">
+          <span id="meta-updated">Last updated: —</span> • 
+          <span id="meta-total">— jobs tracked</span>
+        </div>
+      </div>
+      <nav>
+        <a href="/liftwatch-dashboard/" class="nav-link">Overview</a>
+        <a href="/liftwatch-dashboard/jobs.html" class="nav-link">Jobs</a>
+        <a href="/liftwatch-dashboard/companies.html" class="nav-link">Companies</a>
+        <a href="/liftwatch-dashboard/analytics.html" class="nav-link">Analytics</a>
+        <a href="/liftwatch-dashboard/downloads.html" class="nav-link">Downloads</a>
+        <a href="/liftwatch-dashboard/methodology.html" class="nav-link">Methodology</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Methodology & Data Integrity</h2>
+        <p style="color: #6b7280; margin-bottom: var(--spacing-lg);">This document describes the data collection, processing, and publication approach for the LiftWatch competitive intelligence portal.</p>
+      </section>
+
+      <section>
+        <h3>Data Sources</h3>
+        <p>Job postings are collected from the following public sources:</p>
+        <ul style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl);">
+          <li><strong>SEEK</strong> — www.seek.com.au — Major Australian job board with extensive lift and elevator industry coverage</li>
+          <li><strong>Indeed</strong> — www.indeed.com.au — Aggregated job board with significant Australian lift sector presence</li>
+          <li><strong>Jora</strong> — www.jora.com — Vertical job aggregator with detailed industry filtering</li>
+          <li><strong>Company Career Pages</strong> — Direct career pages for major operators including Otis, Schindler, KONE, Simplex, and regional installers</li>
+        </ul>
+        <p style="color: #6b7280;">All data sources are publicly accessible and require no authentication. Data collection respects robots.txt guidelines and terms of service for all platforms.</p>
+      </section>
+
+      <section>
+        <h3>Collection Process</h3>
+        <p>Jobs are collected through daily automated scanning of job boards and career pages. The process includes:</p>
+        <ol style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl);">
+          <li>Automated search queries targeting lift, elevator, and vertical transportation roles across all states</li>
+          <li>Metadata extraction: title, company, location, salary, job type, source URL, posting date</li>
+          <li>Deduplication and matching against historical database</li>
+          <li>PDF archival of original job posting to Google Drive</li>
+          <li>Manual review and categorization by role type (technician, installer, sales, management, etc.)</li>
+          <li>Daily data refresh and analytics recalculation</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Data Categories & Definitions</h3>
+        <p><strong>Role Type</strong> — Primary job function:</p>
+        <ul style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl); color: #6b7280; font-size: 13px;">
+          <li><em>Technician</em> — Service, maintenance, repair, installation of lift systems</li>
+          <li><em>Mechanic</em> — Mechanical design, fabrication, or equipment maintenance</li>
+          <li><em>Electrician</em> — Electrical installation and maintenance for lift systems</li>
+          <li><em>Sales</em> — Business development, account management, sales engineering</li>
+          <li><em>Project Manager</em> — Project coordination, site supervision, delivery management</li>
+          <li><em>Other</em> — Administrative, customer service, finance, HR, or mixed roles</li>
+        </ul>
+
+        <p style="margin-top: var(--spacing-lg);"><strong>Status</strong> — Job posting state:</p>
+        <ul style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl); color: #6b7280; font-size: 13px;">
+          <li><em>New</em> — Posted or refreshed in the last 7 days</li>
+          <li><em>Active</em> — Posted more than 7 days ago but still visible on job boards</li>
+          <li><em>Closed</em> — No longer visible; position likely filled</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Update Frequency</h3>
+        <p>The portal is updated <strong>daily</strong> with new job postings and removed positions. Metadata is current as of the most recent scan. Historical data is preserved in the database to track hiring trends over time.</p>
+      </section>
+
+      <section>
+        <h3>Known Limitations</h3>
+        <ul style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl);">
+          <li><strong>Job Board Coverage:</strong> Data reflects only publicly posted positions. Internal transfers, fill rates, and hiring timelines are not captured.</li>
+          <li><strong>Duplicate Listings:</strong> The same position may appear across multiple job boards or be reposted frequently. Deduplication is performed but may not be perfect.</li>
+          <li><strong>Salary Data:</strong> Many listings do not include salary information; comparisons should account for missing data.</li>
+          <li><strong>Geographic Precision:</strong> Location data reflects stated job location, which may be office-based rather than field work location.</li>
+          <li><strong>Small Operators:</strong> Regional and small specialist lift companies may not appear due to limited job board presence.</li>
+          <li><strong>Contractor vs. Employee:</strong> The database does not distinguish between permanent and contractor roles except where explicitly stated.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Data Quality & Verification</h3>
+        <p>All data goes through automated validation:</p>
+        <ul style="margin: var(--spacing-lg) 0 var(--spacing-lg) var(--spacing-xl); color: #6b7280; font-size: 13px;">
+          <li>Duplicate detection and removal by URL and posting date</li>
+          <li>Company name standardization and fuzzy matching</li>
+          <li>State and location validation against Australian postcodes</li>
+          <li>Salary parsing and range extraction from free-text fields</li>
+          <li>Source URL validation and archival</li>
+        </ul>
+        <p>Manual spot checks are performed weekly. If you identify data errors or outdated listings, please report via the feedback link at the bottom of each page.</p>
+      </section>
+
+      <section>
+        <h3>Privacy & Data Usage</h3>
+        <p style="color: #6b7280;">This portal displays only <strong>publicly posted job listings</strong>. No personal data is collected, stored, or displayed. All information originates from public job boards and company websites.</p>
+        <p style="color: #6b7280; margin-top: var(--spacing-lg);">Data may be used for competitive analysis, market research, and business intelligence purposes. Redistribution of the dataset is permitted for non-commercial use with attribution to LiftWatch.</p>
+      </section>
+
+      <section>
+        <h3>Technical Implementation</h3>
+        <p>The portal is a static HTML/CSS/JavaScript application hosted on GitHub Pages. Data is loaded from a single JSON file updated daily. No tracking, cookies, or external analytics are used. All data processing occurs in the user's browser.</p>
+        <p style="margin-top: var(--spacing-lg); color: #6b7280; font-size: 12px;">Source code and methodology details are available on GitHub: <code style="background: var(--color-bg-alt); padding: 2px 6px; border-radius: 3px;">github.com/markevolvere/liftwatch-dashboard</code></p>
+      </section>
+
+      <section style="background: var(--color-bg-alt); border: 1px solid var(--color-border); padding: var(--spacing-lg); border-radius: 4px; margin-top: var(--spacing-xl);">
+        <h3 style="margin-top: 0;">Contact & Feedback</h3>
+        <p>Questions about the data or methodology? Have corrections or updates?</p>
+        <p style="color: var(--color-gray); font-size: 13px;">
+          This portal is maintained as a competitive intelligence tool for the Australian lift industry. Data accuracy depends on public source quality and continuous collection. We welcome feedback and corrections.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>LiftWatch Intelligence Portal</strong> — Australian residential lift industry competitive analysis. Data updated daily.</p>
+  </footer>
+
+  <script>
+    async function initMethodology() {
+      const data = await loadData();
+      const meta = data.meta;
+
+      document.getElementById('meta-updated').textContent = `Last updated: ${meta.updated}`;
+      document.getElementById('meta-total').textContent = `${meta.total} jobs tracked`;
+
+      setActiveNav('methodology');
+    }
+
+    initMethodology().catch(err => console.error('Error loading methodology:', err));
+  </script>
+</body>
+</html>
