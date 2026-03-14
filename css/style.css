@@ -268,17 +268,19 @@ tbody tr:hover {
   border-radius: 4px;
   margin-bottom: var(--spacing-md);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .job-card-header {
   padding: var(--spacing-md);
   cursor: pointer;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: var(--spacing-md);
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
   user-select: none;
   transition: background 0.2s;
+  flex: 1;
 }
 
 .job-card-header:hover {
@@ -312,12 +314,26 @@ tbody tr:hover {
   text-decoration: underline;
 }
 
-.job-card-meta {
+.job-card-meta-top {
   display: flex;
   gap: var(--spacing-md);
   font-size: 11px;
   color: var(--color-gray);
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.job-card-meta-secondary {
+  display: flex;
+  gap: var(--spacing-md);
+  font-size: 12px;
+  color: var(--color-text);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.job-card-meta-secondary span {
+  display: inline-block;
 }
 
 .job-card-meta-item {
@@ -326,26 +342,57 @@ tbody tr:hover {
   gap: var(--spacing-xs);
 }
 
-.job-card-toggle {
+/* JOB CARD ACTION BUTTONS (COMPACT ROW) */
+.job-card-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: 0 var(--spacing-md) var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.btn-pdf-download {
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
-  color: var(--color-accent);
-  font-size: 18px;
-  font-weight: 700;
-  flex-shrink: 0;
-  transition: transform 0.2s;
+  padding: 11px var(--spacing-md);
+  background: var(--color-accent);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: background 0.2s;
 }
 
-.job-card.expanded .job-card-toggle {
-  transform: rotate(90deg);
+.btn-pdf-download:hover {
+  background: #1a3557;
+}
+
+.job-card-expand-btn {
+  flex: 1;
+  padding: 11px var(--spacing-md);
+  background: var(--color-bg-alt);
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  min-height: 44px;
+  transition: background 0.2s;
+}
+
+.job-card-expand-btn:hover {
+  background: var(--color-accent-light);
 }
 
 .job-card-content {
   display: none;
-  padding: 0 var(--spacing-md) var(--spacing-md);
+  padding: var(--spacing-md);
   border-top: 1px solid var(--color-border);
   font-size: 13px;
 }
@@ -356,6 +403,10 @@ tbody tr:hover {
 
 .job-detail-section {
   margin-bottom: var(--spacing-md);
+}
+
+.job-detail-section:last-of-type {
+  margin-bottom: var(--spacing-lg);
 }
 
 .job-detail-section-title {
@@ -372,6 +423,16 @@ tbody tr:hover {
   color: var(--color-text);
   line-height: 1.4;
   word-break: break-word;
+}
+
+.source-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.source-link:hover {
+  text-decoration: underline;
 }
 
 .job-detail-buttons {
@@ -611,12 +672,22 @@ button:disabled {
   letter-spacing: 0.5px;
 }
 
-.badge.new {
+.badge.new, .badge-new {
   background: #fef3c7;
   color: #d97706;
 }
 
-.badge.active {
+.badge.active, .badge-active {
+  background: #d1fae5;
+  color: #059669;
+}
+
+.badge-archived {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.badge-current, .badge-live {
   background: #d1fae5;
   color: #059669;
 }

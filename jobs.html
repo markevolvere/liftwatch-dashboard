@@ -201,38 +201,60 @@
       const paged = paginate(filteredJobs, currentPage, perPage);
       const jobsList = document.getElementById('jobs-list');
       
-      jobsList.innerHTML = paged.items.map((job, idx) => `
-        <div class="job-card" data-job-id="${idx}">
-          <div class="job-card-header">
-            <div class="job-card-summary">
-              <div class="job-card-title">${escapeHtml(job.title)}</div>
-              <a href="/liftwatch-dashboard/jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
-              <div class="job-card-meta">
-                <span class="job-card-meta-item"><span class="badge">${job.category || '—'}</span></span>
-                <span class="job-card-meta-item">${job.location || '—'}</span>
-                <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
+      jobsList.innerHTML = paged.items.map((job, idx) => {
+        // Parse employment type from description if it exists (e.g., "Full-time", "Part-time", "Contract")
+        const employmentType = job.description && /^(Full-time|Part-time|Contract|Casual)/i.test(job.description) 
+          ? job.description.split(/\n/)[0] 
+          : '';
+        
+        // PDF button link (prefer drive_download_url, fallback to drive folder)
+        const pdfUrl = job.drive_download_url || 'https://drive.google.com/drive/folders/1nzSRGxa4yqwxfgr6sGmjd6ay6EcdUGIW';
+        
+        return `
+          <div class="job-card" data-job-id="${idx}">
+            <div class="job-card-header">
+              <div class="job-card-summary">
+                <div class="job-card-title">${escapeHtml(job.title)}</div>
+                <div class="job-card-meta-top">
+                  <a href="/liftwatch-dashboard/jobs.html?company=${encodeURIComponent(job.company)}" class="job-card-company">${escapeHtml(job.company)}</a>
+                  <span class="job-card-meta-item"><span class="badge">${job.category || '—'}</span></span>
+                  <span class="job-card-meta-item text-gray">${formatDate(job.date_posted)}</span>
+                </div>
+                <div class="job-card-meta-secondary">
+                  <span>${job.location || '—'}</span>
+                  ${employmentType ? `<span>${employmentType}</span>` : ''}
+                  ${job.salary_raw ? `<span>${escapeHtml(job.salary_raw)}</span>` : ''}
+                </div>
               </div>
             </div>
-            <div class="job-card-toggle">›</div>
-          </div>
-          <div class="job-card-content">
-            ${job.description ? `<div class="job-detail-section"><div class="job-detail-section-title">Description</div><div class="job-detail-section-value">${escapeHtml(job.description).substring(0, 300)}${job.description.length > 300 ? '...' : ''}</div></div>` : ''}
-            ${job.state ? `<div class="job-detail-section"><div class="job-detail-section-title">State</div><div class="job-detail-section-value">${job.state}</div></div>` : ''}
-            ${job.salary_raw ? `<div class="job-detail-section"><div class="job-detail-section-title">Salary</div><div class="job-detail-section-value">${escapeHtml(job.salary_raw)}</div></div>` : ''}
-            <div class="job-detail-section"><div class="job-detail-section-title">Posted</div><div class="job-detail-section-value">${formatDate(job.date_posted)}</div></div>
-            <div class="job-detail-buttons">
-              <a href="${job.url}" target="_blank" rel="noopener" class="btn btn-secondary">View Job</a>
-              ${job.drive_download_url ? `<a href="${job.drive_download_url}" target="_blank" rel="noopener" class="btn btn-pdf">📄 PDF</a>` : ''}
+            <div class="job-card-actions">
+              <a href="${pdfUrl}" target="_blank" rel="noopener" class="btn-pdf-download" title="Download PDF">⬇ PDF</a>
+              <button class="job-card-expand-btn" title="More Details">+ More</button>
+            </div>
+            <div class="job-card-content">
+              ${job.description && !employmentType ? `<div class="job-detail-section"><div class="job-detail-section-title">Summary</div><div class="job-detail-section-value">${escapeHtml(job.description).substring(0, 500)}${job.description.length > 500 ? '...' : ''}</div></div>` : '<div class="job-detail-section"><div class="job-detail-section-title">Summary</div><div class="job-detail-section-value">Summary available soon — AI processing in progress</div></div>'}
+              ${job.state ? `<div class="job-detail-section"><div class="job-detail-section-title">State</div><div class="job-detail-section-value">${escapeHtml(job.state)}</div></div>` : ''}
+              ${job.location ? `<div class="job-detail-section"><div class="job-detail-section-title">Full Location</div><div class="job-detail-section-value">${escapeHtml(job.location)}</div></div>` : ''}
+              ${job.salary_raw ? `<div class="job-detail-section"><div class="job-detail-section-title">Pay/Salary</div><div class="job-detail-section-value">${escapeHtml(job.salary_raw)}</div></div>` : ''}
+              <div class="job-detail-section"><div class="job-detail-section-title">Posted Date</div><div class="job-detail-section-value">${formatDate(job.date_posted)}</div></div>
+              ${job.url ? `<div class="job-detail-section"><div class="job-detail-section-title">Source</div><div class="job-detail-section-value"><a href="${escapeHtml(job.url)}" target="_blank" rel="noopener" class="source-link">${escapeHtml(job.source || 'View Original')}</a></div></div>` : ''}
+              ${job.status ? `<div class="job-detail-section"><div class="job-detail-section-title">Status</div><div class="job-detail-section-value"><span class="badge badge-${job.status.toLowerCase()}">${job.status}</span></div></div>` : ''}
+              <div class="job-detail-buttons">
+                <a href="${pdfUrl}" target="_blank" rel="noopener" class="btn btn-pdf">⬇ PDF</a>
+                ${job.url ? `<a href="${escapeHtml(job.url)}" target="_blank" rel="noopener" class="btn btn-secondary">🔗 View Source</a>` : ''}
+              </div>
             </div>
           </div>
-        </div>
-      `).join('');
+        `;
+      }).join('');
 
       // Attach click handlers for expand/collapse
-      document.querySelectorAll('.job-card-header').forEach(header => {
-        header.addEventListener('click', (e) => {
-          if (e.target.closest('.job-card-company')) return; // Don't expand if clicking company link
-          header.closest('.job-card').classList.toggle('expanded');
+      document.querySelectorAll('.job-card-expand-btn, .job-card-header').forEach(el => {
+        el.addEventListener('click', (e) => {
+          if (e.target.closest('.job-card-company') || e.target.closest('.btn-pdf-download')) {
+            return; // Don't expand if clicking company link or PDF button
+          }
+          el.closest('.job-card').classList.toggle('expanded');
         });
       });
 
