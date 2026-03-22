@@ -1,11 +1,53 @@
 {
   "meta": {
-    "last_updated": "2026-03-22T09:52:18.750146",
-    "total_jobs": 1258,
-    "with_descriptions": 340,
-    "with_pdfs": 254
+    "last_updated": "2026-03-23T08:01:51.009043",
+    "total_jobs": 1260,
+    "with_descriptions": 342,
+    "with_pdfs": 808
   },
   "jobs": [
+    {
+      "title": "Offshore Wind Install/Service - Heavy Lift Supervision",
+      "company": "Cosmic Group Services",
+      "location": "Brisbane QLD",
+      "state": "QLD",
+      "category": "other",
+      "source": "seek",
+      "status": "active",
+      "date_posted": "2026-03-22",
+      "salary_raw": "",
+      "url": "https://www.seek.com.au/job/91009081",
+      "is_recruiter": false,
+      "is_competitor_hire": false,
+      "company_tier": null,
+      "tier_label": null,
+      "days_active": null,
+      "department": null,
+      "employment_type": null,
+      "description": "About Us Cosmic Group Services Pty Ltd is an experienced provider of wind turbine installation and services across all Asia Pacific, with the resources and expertise to deliver efficient and cost-effective mechanical and electrical solutions. Our goal at Cosmic is to provide project based Heavy Lift support in a safe and harm-free manner, working closely with global leading turbine manufacturing companies to deliver high-quality, cost-effective, and efficient services. We offer a range of except...",
+      "has_pdf": true
+    },
+    {
+      "title": "Inspector - Crane / Lifting and rigging equipment",
+      "company": "Lucon Industries",
+      "location": "Melbourne VIC",
+      "state": "VIC",
+      "category": "other",
+      "source": "seek",
+      "status": "active",
+      "date_posted": "2026-03-22",
+      "salary_raw": "",
+      "url": "https://www.seek.com.au/job/90899478",
+      "is_recruiter": false,
+      "is_competitor_hire": false,
+      "company_tier": null,
+      "tier_label": null,
+      "days_active": null,
+      "department": null,
+      "employment_type": null,
+      "description": "Lifting Equipment Inspector Lucon Industries | Full-Time | Williamstown / Port Melbourne About Us Lucon Industries is a leading specialist in industrial maintenance and repair, providing services to major ports, Quarries and industrial facilities across Australia. We pride ourselves on delivering high-quality solutions for our clients, with a focus on safety, efficiency, and reliability. We\u2019re expanding and looking for an experienced Lifting Equipment Inspector to join our expert team. About the...",
+      "has_pdf": true
+    },
     {
       "title": "Lift Technician | Electrician",
       "company": "Frontline Construction Australia",
@@ -25,7 +67,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -46,7 +88,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -67,7 +109,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -88,7 +130,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -109,7 +151,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -130,7 +172,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -151,7 +193,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -172,7 +214,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Forklift Mechanic / Trainee Forklift Mechanic",
@@ -193,7 +235,7 @@
       "department": "other",
       "employment_type": null,
       "description": "Responsibilities\nScheduled servicing, fault-finding & repairs on forklifts & lifting equipment\nDiagnosing issues across mechanical, hydraulic & electrical systems\nResponding to breakdowns in the workshop and onsite, in metro & regional locations\nCoordinating parts, job planning & service scheduling\nInspecting machines before and after hire for safety & performance\nSupporting the workshop team with general maintenance tasks\nWhat You\u2019ll Need\nCertificate III in Engineering (Mechanical Trade) or equ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -214,7 +256,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -235,7 +277,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -256,7 +298,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -277,7 +319,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installations & Service Technician",
@@ -319,7 +361,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Mechanics based in Brisbane/Gold Coast",
@@ -529,7 +571,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role:\nWe are seeking an experienced\nEscalator and Elevator Technician\nto join our\nMelbourne CBD.\nReporting to the Service Manager, you will be responsible for minimising breakdowns and ensuring that all\nescalators perform to customer expectations\n. This role is predominantly focused on maintaining Escalator products, however, experience maintaining lifts is also beneficial.\nWhat\u2019s in it for you:\nHighly competitive base\n- EBA\nExcellent opportunity for you to expand your career at a mult...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior Heavy Lift Engineer",
@@ -697,7 +739,7 @@
       "department": "other",
       "employment_type": null,
       "description": "Responsibilities\nPerform\ninspections, testing, and certification of lifting equipment, including chains, slings, hoists, and other lifting gear.\nConduct\nrepairs and maintenance on lifting equipment to ensure optimal performance and compliance with safety standards.\nProvide\ntechnical advice and support to customers regarding lifting solutions and equipment.\nMaintain\naccurate records of inspections, repairs, and certifications.\nEnsure\nall work complies with relevant Australian Standards and safety...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LIFTINGTECHNICIAN",
@@ -718,7 +760,7 @@
       "department": "other",
       "employment_type": null,
       "description": "Responsibilities\nPerform\ninspections, testing, and certification of lifting equipment, including chains, slings, hoists, and other lifting gear.\nConduct\nrepairs and maintenance on lifting equipment to ensure optimal performance and compliance with safety standards.\nProvide\ntechnical advice and support to customers regarding lifting solutions and equipment.\nMaintain\naccurate records of inspections, repairs, and certifications.\nEnsure\nall work complies with relevant Australian Standards and safety...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician",
@@ -760,7 +802,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -781,7 +823,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -802,7 +844,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -823,7 +865,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "",
@@ -844,7 +886,7 @@
       "department": "other",
       "employment_type": null,
       "description": "Overview:\nVertical Transport Solutions Pty Ltd (VTS) is a leading provider of escalator and elevator installations, servicing, and modifications. We also specialise in security systems, home automation, and CCTV. Due to our continued growth, we are seeking a skilled Electronic Equipment Technician/Trades Worker to join our team.\nThis role is critical in supporting the electronic and control system functionality of vertical transport mechanisms. It involves installing, calibrating, testing, troub...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Gold Coast",
@@ -865,7 +907,7 @@
       "department": "other",
       "employment_type": null,
       "description": "Mechanical Fitter\n\u276e back to last search\nKONE\nGold Coast\nPermanent\nFull time\nCLOSING SOON\nApply for this job\nGreat benefits - 2 RDO\u2019s per month, competitive base wage, overtime available\nWork with industry - leading products and technology\nJoin a global organisation with a strong focus on training, safety and quality\nLooking for a hands-on career in\nGold Coast?\nJoin KONE, a global leader in elevator solutions. We offer a strong safety culture, a supportive team, and real career growth opportuniti...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -886,7 +928,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -907,7 +949,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -928,7 +970,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician| Electrician",
@@ -949,7 +991,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nDue to an expanding portfolio of projects, our client is currently seeking a dedicated and qualified Electrician / Lift Technician to join their team. You will be responsible for installing and assembling lift systems, including both electrical and mechanical components. This position offers electricians the chance to broaden their skills in a dynamic environment while working with the latest lift technology.\nTasks and Responsibilities\nInstall, align and commission lift and elevat...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Vertical Transportation Auditor",
@@ -970,7 +1012,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Internal Sales",
@@ -991,7 +1033,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales Administrator",
@@ -1033,7 +1075,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Business Development Manager - Cat Forklift Sales",
@@ -1075,7 +1117,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales Consultant",
@@ -1096,7 +1138,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior Technical Sales Consultant",
@@ -1117,7 +1159,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installations - Carpentry Expertise (Perth)",
@@ -1138,7 +1180,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technical Sales Specialist - Lift Technology",
@@ -1159,7 +1201,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trades Assistant \u2013 Lift Installations & Maintenance",
@@ -1180,7 +1222,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Residential Lift Installer / Subcontractor ACT",
@@ -1201,7 +1243,7 @@
       "department": "other",
       "employment_type": "contract",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift mechanic, technician/trainee",
@@ -1222,7 +1264,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer ( Fitter & Electrician )",
@@ -1243,7 +1285,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "lift mechanic and electrical fitter",
@@ -1264,7 +1306,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician - Electrician or Lift Mechanic | ACT",
@@ -1285,7 +1327,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician - Electrician",
@@ -1306,7 +1348,7 @@
       "department": "other",
       "employment_type": "casual",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technician - Lift Repairs",
@@ -1327,7 +1369,7 @@
       "department": "other",
       "employment_type": "full time",
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Engineer Product Development",
@@ -1474,7 +1516,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Driver - Rear lift Operators",
@@ -1495,7 +1537,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Boilermakers - Projects & Shutdowns",
@@ -1516,7 +1558,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Heavy Lift Engineers, Designers & Specialists",
@@ -1558,7 +1600,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Scissor Lift Operator",
@@ -1579,7 +1621,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales and Key Account Representative",
@@ -1621,7 +1663,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift New Installation - Electrician",
@@ -1684,7 +1726,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technical Sales Specialist - Lift Technology",
@@ -1747,7 +1789,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Project Manager - Vertical Transportation",
@@ -1768,7 +1810,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager",
@@ -1789,7 +1831,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Design Engineer",
@@ -1831,7 +1873,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Engineer / Vertical Transportation (VT) Engineer - Building Services",
@@ -2587,7 +2629,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role\nOur client is seeking an experienced Lift Installer who can install and assemble lift systems, including electrical and mechanical components.\nThey are also seeking an Electrican who can diagnose and troubleshoot electrical and mechanical issues with elevators.\nJobs are located across the suburbs of Sydney.\nThis is a full-time role from Monday to Friday.\nTasks and Responsibilities\nInstall, align and commission lift and elevator equipment (Lift Installer)\nManage materials and tools...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "",
@@ -2629,7 +2671,7 @@
       "department": "other",
       "employment_type": null,
       "description": "About the role:\nWe are seeking an experienced\nService Technician\nto join our\nBrisbane Escalator Service Team\n. The role will be reporting to an experienced Service Manager, and you will be responsible for minimising breakdowns and ensuring that all equipment\nperforms to our customers' expectations\n.\nWe are looking for an individual who has demonstrated experience in dealing with the maintenance and service of both lifts and escalators.\nWhat\u2019s in it for you:\nHighly competitive base\n- EBA\nExcellen...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "",
@@ -2734,7 +2776,7 @@
       "department": "other",
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "LiftTechnician/ Electrician",
@@ -2818,7 +2860,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Ground Service Equipment (GSE) Maintenance Technician",
@@ -2839,7 +2881,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sunshine Coast Automatic Door & Gate Technician",
@@ -2965,7 +3007,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Wind Turbine Technicians & Blade Repair Roles",
@@ -2986,7 +3028,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Apprentice Program 2027",
@@ -3049,7 +3091,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Crane Electrician / Technician",
@@ -3070,7 +3112,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Vehicle Maintenance Assistant l RV Tech",
@@ -3112,7 +3154,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Customer Service Representative - HO",
@@ -3133,7 +3175,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technical Sales Consultant - QLD",
@@ -3154,7 +3196,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Apprentice Program 2027",
@@ -3217,7 +3259,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -3238,7 +3280,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician",
@@ -3280,7 +3322,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician",
@@ -3322,7 +3364,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager \u2013 Melbourne Metro",
@@ -3343,7 +3385,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Sales Consultant - NSW",
@@ -3364,7 +3406,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Underground Drill Fitter",
@@ -3469,7 +3511,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Apprentice for Service and Construction teams",
@@ -3511,7 +3553,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Racking Installer",
@@ -3532,7 +3574,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer - Electrician",
@@ -3553,7 +3595,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager - WA",
@@ -3574,7 +3616,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tree Worker",
@@ -3889,7 +3931,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technicians - We Need More!",
@@ -3931,7 +3973,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tower Crane Technician",
@@ -3952,7 +3994,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Read More",
@@ -3994,7 +4036,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior Electronic Repair Technician",
@@ -4015,7 +4057,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -4057,7 +4099,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Diesel Mechanic",
@@ -4099,7 +4141,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Maintenance Technician (Chinchilla)",
@@ -4120,7 +4162,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Equipment Inspector",
@@ -4225,7 +4267,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Inspection and Maintenance Assistant - Sydney",
@@ -4267,7 +4309,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Apprentice for Service and Construction teams",
@@ -4288,7 +4330,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Door Service Technician",
@@ -4309,7 +4351,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technicians - We Need More!",
@@ -4351,7 +4393,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Auto Electrician PNG",
@@ -4372,7 +4414,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Heavy Diesel Fitter PNG",
@@ -4414,7 +4456,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Franna/Crane Operators",
@@ -4477,7 +4519,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field & Wkshop Techs/Mechanics\u2013 Diesel, LV, Mobile Equip- $3K Sign on Bonus",
@@ -4519,7 +4561,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Driver - Multi System Operator",
@@ -4540,7 +4582,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "DC Yard Hand",
@@ -4582,7 +4624,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "PRECISION FITTING - AVIATION - LIFTING - INDUSTRY",
@@ -4624,7 +4666,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tree Worker",
@@ -4729,7 +4771,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -4771,7 +4813,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Manufacturing Technician",
@@ -4792,7 +4834,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tree Worker",
@@ -4834,7 +4876,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installations & Service Technician",
@@ -4855,7 +4897,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Fitter/Boilermaker",
@@ -4960,7 +5002,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - Western Australia",
@@ -5002,7 +5044,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - Sunshine Coast (QLD)",
@@ -5023,7 +5065,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -5128,7 +5170,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Project Coordinator",
@@ -5149,7 +5191,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician CBD",
@@ -5191,7 +5233,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -5212,7 +5254,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Electrician",
@@ -5233,7 +5275,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Roller Shutter / Roller Door Service technician",
@@ -5254,7 +5296,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Cleaning Position - Coolangatta",
@@ -5296,7 +5338,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "General Hand",
@@ -5338,7 +5380,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trade Assistants",
@@ -5401,7 +5443,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -5422,7 +5464,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager",
@@ -5443,7 +5485,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Full-time Experienced Electricians",
@@ -5464,7 +5506,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Security Technician - Installer",
@@ -5485,7 +5527,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repairs Sales Representative",
@@ -5506,7 +5548,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Sales Manager",
@@ -5527,7 +5569,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician - Adelaide",
@@ -5548,7 +5590,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -5569,7 +5611,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Technician",
@@ -5590,7 +5632,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fancy a career change?",
@@ -5632,7 +5674,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service and Maintenance Technician",
@@ -5653,7 +5695,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician CBD",
@@ -5716,7 +5758,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative - Nelson Bay / Forster",
@@ -5737,7 +5779,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative (Field Service) - Port Macquarie",
@@ -5758,7 +5800,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trades Assistant",
@@ -5779,7 +5821,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repairs Sales Representative",
@@ -5800,7 +5842,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Manager",
@@ -5821,7 +5863,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repairs Manager",
@@ -5863,7 +5905,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -5884,7 +5926,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Diesel Mechanic - $60ph",
@@ -5926,7 +5968,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - T Repairs",
@@ -5947,7 +5989,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - Sunshine Coast (QLD)",
@@ -5968,7 +6010,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Sales Manager",
@@ -5989,7 +6031,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative (Field Service) - Port Macquarie",
@@ -6010,7 +6052,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative - Newcastle",
@@ -6031,7 +6073,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative - Nelson Bay / Forster",
@@ -6052,7 +6094,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales Consultant - New Equipment",
@@ -6073,7 +6115,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Linesworkers \u2013 Linesperson",
@@ -6157,7 +6199,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter",
@@ -6220,7 +6262,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "EXPERIENCED Lifting Safety Technician & Inspector (MUST be Experienced)",
@@ -6283,7 +6325,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Fitter",
@@ -6304,7 +6346,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "General Manager Information Technology",
@@ -6325,7 +6367,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Vertical Transportation Auditor",
@@ -6367,7 +6409,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "TRAINEE Lifting Safety Maintenance & Inspection Technician",
@@ -6388,7 +6430,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trades Assistant",
@@ -6430,7 +6472,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Animal Technician",
@@ -6451,7 +6493,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -6472,7 +6514,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Power Generation Field Service Technician - Level II",
@@ -6493,7 +6535,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician",
@@ -6577,7 +6619,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter",
@@ -6640,7 +6682,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Assistant Venue Manager",
@@ -6829,7 +6871,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Office & Field Roles",
@@ -6955,7 +6997,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior GIS Technician",
@@ -6976,7 +7018,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Power Generation Field Service Technician - Level II",
@@ -6997,7 +7039,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Technician",
@@ -7018,7 +7060,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mission System AME",
@@ -7060,7 +7102,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Rigger Advanced",
@@ -7102,7 +7144,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Technician",
@@ -7123,7 +7165,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "HSE Advisor",
@@ -7228,7 +7270,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Handyperson - Hotel Alex Perth",
@@ -7270,7 +7312,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales and Key Account Representative",
@@ -7291,7 +7333,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -7312,7 +7354,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Apprentice Program 2027",
@@ -7354,7 +7396,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Office & Field Roles",
@@ -7417,7 +7459,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "System Engineer",
@@ -7438,7 +7480,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "ICT Technician",
@@ -7459,7 +7501,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Supervisor",
@@ -7480,7 +7522,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Helpdesk & Dispatch Coordinator",
@@ -7543,7 +7585,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Management Consultant",
@@ -7564,7 +7606,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Water Industry Worker",
@@ -7606,7 +7648,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "PROCESS TECHNICIAN MINING CASUAL LOCATION: PERTH Are you ready to take your career to the next",
@@ -7648,7 +7690,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Restaurant Manager",
@@ -7669,7 +7711,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Business Manager",
@@ -7690,7 +7732,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Customer Service Entry Level",
@@ -7711,7 +7753,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Technician - FIFO Western Australia",
@@ -7732,7 +7774,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales Consultant - Pre owned Vehicles",
@@ -7753,7 +7795,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior GIS Technician",
@@ -7774,7 +7816,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Area Construction Lead - Mechanical Structural and Piping (MSP)",
@@ -7858,7 +7900,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "RECRUITMENT ADVISOR",
@@ -7921,7 +7963,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician-Lifting Equipment",
@@ -8005,7 +8047,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician/Lift Service Technician",
@@ -8047,7 +8089,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "SERVICE TECHNICIAN",
@@ -8173,7 +8215,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Forklift Operator",
@@ -8194,7 +8236,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "General Labourer",
@@ -8278,7 +8320,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Forklift operators",
@@ -8299,7 +8341,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "HR Driver - Skip & Front Lift",
@@ -8383,7 +8425,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -8404,7 +8446,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -8425,7 +8467,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Medical Equipment Installer",
@@ -8467,7 +8509,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "3rd or 4th Year Mechanical Fitter Apprentice",
@@ -8509,7 +8551,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Forklift Operative",
@@ -8530,7 +8572,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "STOREPERSON - PACKER - FORKLIFT LIC",
@@ -8572,7 +8614,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Forklift Engineer",
@@ -8593,7 +8635,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "AUS Inds Lifting Team Manager",
@@ -8635,7 +8677,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician - Automatic Gate & Access Control",
@@ -8698,7 +8740,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Medical Equipment Installer",
@@ -8719,7 +8761,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fork Lift Operator/ Yards man",
@@ -8740,7 +8782,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -8761,7 +8803,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Technician",
@@ -8782,7 +8824,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installer Fitter",
@@ -8803,7 +8845,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician/Lift Service Technician",
@@ -8845,7 +8887,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "1st Year Apprentice Roofer",
@@ -8950,7 +8992,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Diesel Mechanic",
@@ -9034,7 +9076,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -9076,7 +9118,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Automatic Gate/ Roller Shutter Technician",
@@ -9139,7 +9181,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fork Truck Technican",
@@ -9160,7 +9202,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "SENIOR PROJECT MANAGER \u2013 OIL & GAS",
@@ -9181,7 +9223,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lubrication Technician - Fixed Plant | WAIO | 8:6 Dayshift",
@@ -9223,7 +9265,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales and Key Account Representative",
@@ -9244,7 +9286,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Residential Care Worker - Cowell Casual Pool (WHA3/WHA4)",
@@ -9370,7 +9412,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Conveyor Technician",
@@ -9391,7 +9433,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Full time Elevator installer/Electrician/Subcontractor",
@@ -9433,7 +9475,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Forklift Mechanic",
@@ -9454,7 +9496,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Forklift Technician / Mechanic \u2013 Workshop & Field Service",
@@ -9496,7 +9538,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Forklift Mechanic/Service Technician",
@@ -9517,7 +9559,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop/Service Technician",
@@ -9538,7 +9580,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician | Electrician",
@@ -9580,7 +9622,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repairs Manager",
@@ -9601,7 +9643,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -9622,7 +9664,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Direct Care Worker Residential - Kingston Casual Pool",
@@ -9664,7 +9706,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician - Day Shift",
@@ -9685,7 +9727,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Telecommunications Technician & Trades Assistant",
@@ -9853,7 +9895,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Height Access Technician",
@@ -9874,7 +9916,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician- FIFO EX PERTH (Full Training Provided)",
@@ -9916,7 +9958,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Boiler Maker",
@@ -10000,7 +10042,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Representative (Field Service) \u2013 Canberra",
@@ -10021,7 +10063,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trades Assistant - Welshpool Workshop",
@@ -10084,7 +10126,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "MOTOR MECHANIC / FORKLIFT TECHNICIAN",
@@ -10105,7 +10147,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Melbourne CBD",
@@ -10294,7 +10336,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer and Electricians | Multiple roles",
@@ -10315,7 +10357,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electricians / Lift Technicians",
@@ -10336,7 +10378,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician (Mechanic)",
@@ -10441,7 +10483,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technicians / Electricians",
@@ -10504,7 +10546,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -10525,7 +10567,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Manager",
@@ -10546,7 +10588,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installer Fitter",
@@ -10567,7 +10609,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "SERVICE TECHNICIAN",
@@ -10651,7 +10693,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -10672,7 +10714,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Electrician",
@@ -10693,7 +10735,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Lift and Escalator Industry",
@@ -10777,7 +10819,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance technician",
@@ -10798,7 +10840,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Repairs Technician - NSW",
@@ -10903,7 +10945,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Full time Elevator installer/Electrician/Subcontractor",
@@ -10945,7 +10987,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift mechanic, technician/trainee",
@@ -11029,7 +11071,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Automation Technician",
@@ -11050,7 +11092,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Heavy Vehicle Plant & Equipment Trades Assistant",
@@ -11134,7 +11176,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trade Assistant Technician",
@@ -11155,7 +11197,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -11176,7 +11218,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technicians x 4",
@@ -11218,7 +11260,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician - Weightometer / Conveyor Belt Weighers",
@@ -11260,7 +11302,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter",
@@ -11407,7 +11449,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Multi Club Manager - Ryde & Glebe",
@@ -11554,7 +11596,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Supervisor",
@@ -11617,7 +11659,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Weighbridge Scales - Field Service Technician",
@@ -11638,7 +11680,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic  and Service Technicians (Hobart and Launceston, Tasmania)",
@@ -11659,7 +11701,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician & Workshop Based Technician",
@@ -11680,7 +11722,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -11701,7 +11743,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Stairlift Technician",
@@ -11722,7 +11764,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Qualified Carpenter / Joiner / Shopfitter",
@@ -11848,7 +11890,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technicians",
@@ -11911,7 +11953,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager - Lifts",
@@ -11932,7 +11974,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technical Services Fitter \u2013 Installation, Production & Inspection",
@@ -11974,7 +12016,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Technicians",
@@ -11995,7 +12037,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technician Tool Repairs",
@@ -12016,7 +12058,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Residential and Commercial Door technician",
@@ -12058,7 +12100,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter",
@@ -12100,7 +12142,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Assistant Store Manager - Pacific Fair",
@@ -12121,7 +12163,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Telecommunications Technical Officer or Technologist",
@@ -12163,7 +12205,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician \u2013 Patient Lifting Equipment",
@@ -12184,7 +12226,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Technician",
@@ -12205,7 +12247,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Container Unloaders & Forklift Opertaors",
@@ -12268,7 +12310,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Brisbane",
@@ -12373,7 +12415,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Rigger/ Dogman",
@@ -12499,7 +12541,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Hoist Service Technician",
@@ -12751,7 +12793,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic and Service Technicians (Hobart and Launceston, Tasmania)",
@@ -12793,7 +12835,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician \u2013 Sydney \u2013 Immediate Start",
@@ -12856,7 +12898,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic and Service Technicians (Hobart and Launceston, Tasmania)",
@@ -12877,7 +12919,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter",
@@ -12919,7 +12961,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Global Sales Optimisation Manager - Freight",
@@ -13003,7 +13045,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanics",
@@ -13024,7 +13066,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Brisbane",
@@ -13087,7 +13129,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Assistant and Internal Sales",
@@ -13129,7 +13171,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Expressions of Interest - Logistics Coordinator - Night Shift",
@@ -13423,7 +13465,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic and Service Technicians (Hobart and Launceston, Tasmania)",
@@ -13444,7 +13486,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Mechanic",
@@ -13465,7 +13507,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic and Service Technicians (Hobart and Launceston, Tasmania)",
@@ -13486,7 +13528,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Alpine Resort Mechanic \u2014 Fleet & Lift Ops",
@@ -13528,7 +13570,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Brisbane",
@@ -13591,7 +13633,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repairs Sales Representative",
@@ -13612,7 +13654,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Production Assistant - Fabrication",
@@ -13759,7 +13801,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mobile Collections Driver - Canning Vale",
@@ -13885,7 +13927,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Animal Attendant",
@@ -14011,7 +14053,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Full-time Experienced Electricians",
@@ -14032,7 +14074,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Area Administrator - Part time",
@@ -14053,7 +14095,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "QMP Technician",
@@ -14074,7 +14116,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electricians & Trade Assistants",
@@ -14137,7 +14179,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Brisbane Lift & Escalator Install Technician (Contract)",
@@ -14242,7 +14284,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Care Team Leader",
@@ -14263,7 +14305,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Recycling Attendant",
@@ -14305,7 +14347,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse / Yard Loader",
@@ -14347,7 +14389,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Brisbane Service Manager - Lift Repairs & Maintenance",
@@ -14368,7 +14410,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Fitter",
@@ -14389,7 +14431,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Factory Hand",
@@ -14431,7 +14473,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Endorsed Enrolled Nurse - Residential Aged Care - Permanent Part Time 0.60 EFT",
@@ -14515,7 +14557,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Electrician",
@@ -14536,7 +14578,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Rear Lift Driver",
@@ -14557,7 +14599,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electricians & Trade Assistants",
@@ -14578,7 +14620,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "HR Driver - Rear Lift",
@@ -14599,7 +14641,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Road Train Driver",
@@ -14662,7 +14704,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Technicians",
@@ -14683,7 +14725,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Technicians",
@@ -14704,7 +14746,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Team Member",
@@ -14809,7 +14851,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Roof Tiler",
@@ -14851,7 +14893,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager NSW",
@@ -14872,7 +14914,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager NSW",
@@ -14893,7 +14935,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Vehicle Technician - electronics/electrical",
@@ -14914,7 +14956,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -14935,7 +14977,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician - Aged Care",
@@ -14956,7 +14998,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local / Regional Delivery Driver - MR",
@@ -15292,7 +15334,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "FIFO Riggers (Ongoing Shutdown Work)",
@@ -15334,7 +15376,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Alpine Resort Mechanic & Lift Ops",
@@ -15397,7 +15439,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Sales Assistant",
@@ -15607,7 +15649,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technicians x 4",
@@ -15691,7 +15733,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Chef de Partie - RACV Cape Schanck Resort",
@@ -15775,7 +15817,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Kitchen Hand",
@@ -15838,7 +15880,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fuel Tanker Driver - Kalgoorlie - Residential",
@@ -16237,7 +16279,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Project Coordinator",
@@ -16258,7 +16300,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "QMP Technician",
@@ -16279,7 +16321,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Area Administrator - Part time",
@@ -16300,7 +16342,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer - Electrician",
@@ -16321,7 +16363,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Sales Consultant - Modernisation Solutions",
@@ -16426,7 +16468,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -16531,7 +16573,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Mechanic -1",
@@ -16552,7 +16594,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Structural Riggers - $145,000  Overtime",
@@ -16594,7 +16636,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Labourer",
@@ -16678,7 +16720,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician",
@@ -16741,7 +16783,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Hardware Systems Administrator",
@@ -16804,7 +16846,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Diesel Mechanic",
@@ -16825,7 +16867,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Houseman",
@@ -16993,7 +17035,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Mechanic -1",
@@ -17014,7 +17056,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "TRADE ASSISTANT - MECHANICAL ASSEMBLY - LIFTING INDUSTRY",
@@ -17287,7 +17329,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Inventory Administrator",
@@ -17308,7 +17350,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Mechanic Mechanic",
@@ -17350,7 +17392,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Maintenance Technician \u2013 2 RDOs & Great Benefits",
@@ -17371,7 +17413,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Repairs Mechanic \u2013 On-Site (Mascot)",
@@ -17392,7 +17434,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician (General)",
@@ -17413,7 +17455,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Mechanical",
@@ -17455,7 +17497,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - Sunshine Coast (QLD)",
@@ -17476,7 +17518,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Technicians",
@@ -17497,7 +17539,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer - Electrician",
@@ -17518,7 +17560,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Process Technician - Day Services Techs",
@@ -17539,7 +17581,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Handyman and Flatpack Furniture Installer (SYDNEY)",
@@ -17770,7 +17812,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Apprentice Plumber",
@@ -17812,7 +17854,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "English / Music Classroom Teacher",
@@ -17938,7 +17980,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Community Lead, Brisbane - 12 months contract",
@@ -18022,7 +18064,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Housekeeping Supervisor | Taronga Zoo",
@@ -18295,7 +18337,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Facilities Operations Manager",
@@ -18316,7 +18358,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Donor Relationship Lead",
@@ -18547,7 +18589,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Business Development Manager",
@@ -18652,7 +18694,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Housekeeping Supervisor",
@@ -18757,7 +18799,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager, Professional Services",
@@ -18778,7 +18820,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Diesel Mechanic",
@@ -18799,7 +18841,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Mechanic",
@@ -18820,7 +18862,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "QMP Technician",
@@ -18841,7 +18883,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Showerscreen Installers - Subcontractor Opportunities (TC)",
@@ -18967,7 +19009,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trainee Freight Operator",
@@ -19009,7 +19051,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Domestic Assistant",
@@ -19135,7 +19177,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Project Manager NSW",
@@ -19156,7 +19198,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Account Representative - Western Australia",
@@ -19177,7 +19219,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Manager",
@@ -19198,7 +19240,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Head of PMO (Major Projects)",
@@ -19240,7 +19282,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Business Development Manager (Vic, SA, WA & TAS)",
@@ -19282,7 +19324,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Maintenance Technician- Solar PV (Wyalong)",
@@ -19303,7 +19345,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - ACT",
@@ -19387,7 +19429,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lifting Technician Team Lead: Safety & Inspections",
@@ -19471,7 +19513,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanic II",
@@ -19492,7 +19534,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Machine Operator - Meat Processing",
@@ -19555,7 +19597,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Maintenance Technician- Solar PV (Wyalong)",
@@ -19576,7 +19618,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Equipment Maintenance Manager",
@@ -19597,7 +19639,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician (Brisbane Based)",
@@ -19723,7 +19765,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nResidential Lift Technician \u2014 Install, Service & Grow\nLift Shop | Elevator Boutique\n\u2013\nCity of Sydney NSW\n1d ago, from Talent AU\nApply on company site\n\nA leading lift installation company in New South Wales seeks a skilled individual for installing residential lifts. Responsibilities include installation, servicing, and maintaining worksite safety.\n\nApplicants should have electrical certifications, a clear communication style, and the ability to work calmly under pressure. ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician \u2013 Sydney (Hands-On & Training)",
@@ -19786,7 +19828,7 @@
       "department": null,
       "employment_type": null,
       "description": "WHY join Schindler?\n\nAt Schindler, we are all about our culture! We focus on supporting our employees to meet their full potential through careful selection and constant development to make them a leader in their area. You will have the opportunity to grow and develop both personally and professionally whilst working with a great bunch of people. We offer job stability to our employees as we focus on promoting from within and foresee a growth trajectory of our business in the coming years.\n\nAt S...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Administrator - NSW",
@@ -19807,7 +19849,7 @@
       "department": null,
       "employment_type": null,
       "description": "WHY join Schindler?\n\nAt Schindler, we are all about our culture! We focus on supporting our employees to meet their full potential through careful selection and constant development to make them a leader in their area. You will have the opportunity to grow and develop both personally and professionally whilst working with a great bunch of people. We offer job stability to our employees as we focus on promoting from within and foresee a growth trajectory of our business in the coming years.\n\nAt S...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Branch Administrator - VIC",
@@ -19828,7 +19870,7 @@
       "department": null,
       "employment_type": null,
       "description": "WHY join Schindler?\n\nAt Schindler, we are all about our culture! We focus on supporting our employees to meet their full potential through careful selection and constant development to make them a leader in their area. You will have the opportunity to grow and develop both personally and professionally whilst working with a great bunch of people. We offer job stability to our employees as we focus on promoting from within and foresee a growth trajectory of our business in the coming years\n\nAt Sc...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "T Repairs Electrician",
@@ -19849,7 +19891,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted: 2025-11-27 Country: Australia Location: LOC7055: Otis Elevator Company Pty Ltd, L23, 363 George Street, Sydney NSW 2000, Australia Join OTIS and help us Build What's Next. We are seeking experienced T Repairs Electricians to join our team in Sydney CBD . This is a permanent position reporting to the T Project Manager, offering excellent career growth opportunities within a global leader in vertical transportation. About the Role As a T Repairs Electrician , you will work across var\u2026",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "T Repairs Electrician",
@@ -19870,7 +19912,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted:\n\n2025-11-27\n\nCountry:\n\nAustralia\n\nLocation:\n\nLOC7055: Otis Elevator Company Pty Ltd, L23, 363 George Street, Sydney NSW 2000, Australia\n\nJoin OTIS and help us Build What\u2019s Next.\n\nWe are seeking experienced T Repairs Electricians to join our team in Sydney CBD.\n\nThis is a permanent position reporting to the T Project Manager, offering excellent career growth opportunities within a global leader in vertical transportation.\n\nAbout the Role\n\nAs a T Repairs Electrician, you will work acr...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -19912,7 +19954,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted: 2025-11-25 Country: Australia Location: LOC7038 : 9 & 13/4 Bronti Street, Mascot NSW 2020, Australia Come and join Electra today, and be part of the OTIS Family and Forbes 2022 World's Best Employers. Electra Lift is a Sydney-based elevator and escalator company, established in 1972. For over four decades, Electra Lift has continued striving to meet customer needs in Maintenance, Repairs, and Modernisations. About you We are looking for a T Repairs Mechanic based in Mascot, NSW. I \u2026",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator & Escalator Repairs Electrician - Sydney",
@@ -19933,7 +19975,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nElevator & Escalator Repairs Electrician - Sydney\nOtis Elevator Co.\n\u2013\nCity of Sydney NSW\nPermanent\n1d ago, from Talent AU\nApply on company site\n\nA global leader in vertical transportation seeks experienced T Repairs Electricians in Sydney CBD. In this permanent position, you will install, modernise, and repair elevators and escalators across various sites. Applicants should have electrical trade qualifications and experience in the lift industry, with strong problem-solvin...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Apprentice Concreter",
@@ -19975,7 +20017,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician",
@@ -19996,7 +20038,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Brisbane Lift Technician: Service, Repairs & Training",
@@ -20017,7 +20059,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Maintenance / Installation / Electrician - Residential Lift Industry (SYD)",
@@ -20059,7 +20101,7 @@
       "department": null,
       "employment_type": null,
       "description": "$80,000 - $100,000 a year",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Remote Lift & Escalator Service Technician (Perth)",
@@ -20080,7 +20122,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician \u2013 CBD Brisbane",
@@ -20122,7 +20164,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Mechanics based in Brisbane/Gold Coast",
@@ -20143,7 +20185,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nInstallation Mechanics based in Brisbane/Gold Coast\nOtis Elevator Co.\n\u2013\nGold Coast QLD\nContract\n2d ago, from Talent AU\nApply on company site\nDate Posted:*\n2025-11-24*\nCountry:*\nAustralia*\nLocation:*\nLOC7060: Level 4, 19 Lang Parade, Milton, QLD 4064Come and join OTIS today and be part of the TIME 2025 World's\n\nBest Employers! At Otis, it\u2019s our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the co...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installation Technician - Brisbane/Gold Coast",
@@ -20164,7 +20206,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator & Escalator Technician \u2013 Adelaide (Permanent)",
@@ -20185,7 +20227,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Maintenance / Installation / Electrician - Residential Lift Industry (SYD)",
@@ -20269,7 +20311,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Labourer (Casual)",
@@ -20353,7 +20395,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted:\n\n2025-09-30\n\nCountry:\n\nAustralia\n\nLocation:\n\nLOC7013 : 2-12 Montague Street, South Melbourne VIC 3205, Australia\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers! At Otis, it\u2019s our people that make us different.\n\nJoin the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are looking for Lift Electricians and Mechanics to be based in Melbourne, Victoria.\n\nCasual role based on project de...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Mechanic/Electrician (Casual)",
@@ -20374,7 +20416,7 @@
       "department": null,
       "employment_type": null,
       "description": "**Date Posted:**\n\n2025-09-30\n\n**Country:**\n\nAustralia\n\n**Location:**\n\nLOC7013 : 2-12 Montague Street, South Melbourne VIC 3205, Australia\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers! At Otis, it's our people that make us different.\n\nJoin the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are looking for **Lift Electricians** and **Mechanics** to be based in Melbourne, Victoria.\n\n+ Casual ro...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Premium Elevator Service Technician - Electrician/Mechanic",
@@ -20395,7 +20437,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - ACT",
@@ -20563,7 +20605,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician: Lifting & Rigging Specialist",
@@ -20584,7 +20626,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - ACT",
@@ -20626,7 +20668,7 @@
       "department": null,
       "employment_type": null,
       "description": "Great benefits and remuneration \u2013 base + car allowance + bonus\n\nWork with industry-leading products and technology\n\nJoin a global organisation with a strong focus on training, safety and quality\n\nAt KONE, you'll find innovation that goes somewhere\n\nWe see a future of smart cities. As an innovation leader in the elevator and escalator industry, our award-winning products and solutions continue to push boundaries, rethinking how we use buildings for life, work and play.\n\nOur work will take you in ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician (Developing or Experienced)",
@@ -20752,7 +20794,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "MEWP Service Technician & Lift Specialist",
@@ -20773,7 +20815,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Mechanic",
@@ -20794,7 +20836,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager",
@@ -20815,7 +20857,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician (Electrician)",
@@ -20857,7 +20899,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician \u2013 Sydney (36h, Training & Tools Provided)",
@@ -21004,7 +21046,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Removal Specialist",
@@ -21025,7 +21067,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Building Services Coordinator",
@@ -21151,7 +21193,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Service Technician",
@@ -21172,7 +21214,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Warehouse Operations Support",
@@ -21277,7 +21319,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Truck Driver - Shopfitting Industry",
@@ -21361,7 +21403,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tilt Tray Driver",
@@ -21403,7 +21445,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "4x4 Vehicle Accessory Fitter",
@@ -21466,7 +21508,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Mechanic-Brisbane Branch",
@@ -21487,7 +21529,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Industrial Lifting & Machinery",
@@ -21529,7 +21571,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technicians - Sydney",
@@ -21571,7 +21613,7 @@
       "department": null,
       "employment_type": null,
       "description": "**Date Posted:**\n\n2025-09-28\n\n**Country:**\n\nAustralia\n\n**Location:**\n\nLOC7060: Level 4, 19 Lang Parade, Milton, QLD 4064\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers!\n\nAt Otis, it's our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are currently looking for a **Lift Installation Mechanic** to be based in Brisbane **, Queensland.**\n\n**About you**\n\nYou ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Mechanics based in Brisbane/Gold Coast",
@@ -21592,7 +21634,7 @@
       "department": null,
       "employment_type": null,
       "description": "**Date Posted:**\n\n2025-11-24\n\n**Country:**\n\nAustralia\n\n**Location:**\n\nLOC7060: Level 4, 19 Lang Parade, Milton, QLD 4064\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers!\n\nAt Otis, it's our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are currently looking for **Lift Installation Mechanics** to be based in **Brisbane or Gold Coast, Queensland.**\n\n**About...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician (General)",
@@ -21613,7 +21655,7 @@
       "department": null,
       "employment_type": null,
       "description": "Job Info\n\nLocation: ADELAIDE, SA\n\nSalary: Award\n\nJob Type: Permanent position | Full time position\n\nJob Description\n\nAbout the Role: We are currently seeking a qualified and dependable Electrician (General) to join our team. In this role, you will be responsible for installing, maintaining, testing, and repairing a variety of electrical systems and equipment across commercial, industrial, and domestic settings.\n\nThis position requires a licensed professional with a strong understanding of electr...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician (General)",
@@ -21634,7 +21676,7 @@
       "department": null,
       "employment_type": null,
       "description": "Job Info\n\nLocation: NEDLANDS, WA\n\nSalary: Award\n\nJob Type: Permanent position | Full time position\n\nJob Description\n\nAbout the Role: We are currently seeking a qualified and dependable Electrician (General) to join our team. In this role, you will be responsible for installing, maintaining, testing, and repairing a variety of electrical systems and equipment across commercial, industrial, and domestic settings.\n\nThis position requires a licensed professional with a strong understanding of electr...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician - Electrician or Lift Mechanic | NSW",
@@ -21697,7 +21739,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician \u2014 Sydney, 36h/wk, Training",
@@ -21739,7 +21781,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nT Repairs Mechanic\nOtis Elevator Co.\n\u2013\nMascot NSW\nFull time\n10d ago, from Talent AU\nApply on company site\n\nT Repairs Mechanic page is loaded## T Repairs Mechanicremote type: On-Sitelocations: LOC7038 : 9 & 13/4 Bronti Street, Mascot NSW 2020, Australiatime type: Full timeposted on: Posted Todayjob requisition id: 20147351*\n\nDate Posted:*\n2025-11-25*\nCountry:*\nAustralia*\nLocation:*\nLOC7038 : 9 & 13/4 Bronti Street, Mascot NSW 2020, AustraliaCome and join Electra today, and ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -21802,7 +21844,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Care Partner",
@@ -22012,7 +22054,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Crew Casual AV",
@@ -22264,7 +22306,7 @@
       "department": null,
       "employment_type": null,
       "description": "ELEVATRIX PTY LTD\n\nPosition: Fitter / Mechanical Tradesperson\n\nLocation: Greater NSW Region\n\nEmployment Type: Full-time / Casual (negotiable)\n\nAbout Elevatrix\n\nElevatrix Pty Ltd is a growing company specialising in elevator installation, removal, and modernisation. We work as a preferred subcontractor for major lift companies across NSW, delivering high-quality workmanship and reliable service.\n\nWhat We Offer\n\n\u2022 Exciting opportunity with a growing company\n\n\u2022 Work with major lift companies as a f...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician",
@@ -22306,7 +22348,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nStairlift Technician\nAcorn Stairlifts\n\u2013\nSydney CBD NSW\n$80,000 - $100,000 a year\nFull time\nNo experience required\n2d ago, from seek.com.au\nApply on company site\n\nAre you ready to make a real difference in people's lives while working with cutting-edge technology? Acorn Stairlifts is looking for enthusiastic and skilled Technicians to join our expanding team in the greater Sydney area. As the Australian division of the world\u2019s leading manufacturer of stairlifts, we\u2019re at th...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Construction Technicians",
@@ -22327,7 +22369,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nConstruction Technicians\nOtis\n\u2013\nWelland SA\n3.6 from 28 reviews at SEEK\nFull time\n3d ago, from seek.com.au\nApply on company site\n\nCome and join OTIS today and be part of the Forbes 2025 World's Best Employers! At Otis, it\u2019s our people that make us different.\u00a0\n\nJoin the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\u00a0\n\nWe are looking for\u00a0Construction Technicians\u00a0to be based in and around Adelaide, South Aust...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Site Service Technician Level 1",
@@ -22348,7 +22390,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Qualified Mechanic",
@@ -22369,7 +22411,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fitter/Mechanical trades",
@@ -22390,7 +22432,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lifting Technician",
@@ -22474,7 +22516,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nService Manager\nSimplex Elevators\n\u2013\nSalisbury QLD\n$115,000 - $125,000 a year\nFull time\n3d ago, from seek.com.au\nApply on company site\n\nAbout the role\n\nSimplex Elevators Pty Ltd is seeking an experienced Service Manager to oversee the maintenance and repair of our elevator systems across Queensland. As a full-time position based in Salisbury, QLD, this role is crucial in ensuring the safe and reliable operation of our equipment for our valued clients.\n\nWhat you'll be doing\n...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Supervisor",
@@ -22516,7 +22558,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Refrigeration Installation Technician",
@@ -22537,7 +22579,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lifting Equipment Inspection and Service Technician",
@@ -22558,7 +22600,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Reliability Technician",
@@ -22579,7 +22621,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Manager - T Repairs",
@@ -22600,7 +22642,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Assemblers \u2013 Mobile Plant - $39 /hr  Penalties - Pinkenba",
@@ -22684,7 +22726,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer and Electricians | Multiple roles",
@@ -22705,7 +22747,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician - Electrician or Lift Mechanic | NSW",
@@ -22768,7 +22810,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "BMS Service Technician",
@@ -22789,7 +22831,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician Lift Repairs",
@@ -22831,7 +22873,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "TRADE ASSISTANT - MECHANICAL ASSEMBLY - LIFTING INDUSTRY",
@@ -22873,7 +22915,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrical Reliability Technician",
@@ -22894,7 +22936,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Data Centre Operations Technician",
@@ -22936,7 +22978,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technician / Electrician",
@@ -22978,7 +23020,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -23104,7 +23146,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Motor Mechanic",
@@ -23146,7 +23188,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fork Truck Technican",
@@ -23167,7 +23209,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Hydraulic Technicians",
@@ -23188,7 +23230,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Assemblers \u2013 Mobile Plant - $39 /hr  Penalties - Pinkenba",
@@ -23230,7 +23272,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "FIeld Technician - $60ph",
@@ -23251,7 +23293,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Intermediate Rigger",
@@ -23314,7 +23356,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician - SA",
@@ -23335,7 +23377,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician - NSW",
@@ -23356,7 +23398,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician - WA",
@@ -23377,7 +23419,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Fitter \u2013 Industrial Cranes (Full-Time | $55/hr  OT  Vehicle)",
@@ -23419,7 +23461,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Local Area Representative - Newcastle - Forster",
@@ -23440,7 +23482,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Industrial Workshop Painter",
@@ -23482,7 +23524,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Riggers/TA",
@@ -23566,7 +23608,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Service Technician",
@@ -23587,7 +23629,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Service Technician",
@@ -23608,7 +23650,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Forklift Driver",
@@ -23629,7 +23671,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Future Technicians",
@@ -23650,7 +23692,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Leading Hand Mechanic - Bull Creek",
@@ -23692,7 +23734,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Snr Audiovisual Technician - Full Time | Hamilton Island",
@@ -23734,7 +23776,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Controller | Canterbury BMW",
@@ -23776,7 +23818,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Light Vehicle Mechanic",
@@ -23797,7 +23839,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician (Heavy Lifting & Rigging)",
@@ -23818,7 +23860,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Onsite Service Technician",
@@ -23839,7 +23881,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Mechanic/Technician",
@@ -23860,7 +23902,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Junior Lash Artist & Nail Artist",
@@ -23902,7 +23944,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician (Heavy Lifting & Rigging)",
@@ -23923,7 +23965,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician (Heavy Lifting & Rigging)",
@@ -23944,7 +23986,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Production Technician - Heavy Lifting & Rigging",
@@ -23965,7 +24007,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Despatch CoOrdinator / Factory Hand",
@@ -24028,7 +24070,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician (Lifting & Heavy Rigging)",
@@ -24049,7 +24091,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Tail Lift Field Service Technician",
@@ -24070,7 +24112,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician - Electrician or Lift Mechanic | ACT",
@@ -24133,7 +24175,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "AUS Inds Lifting Technician",
@@ -24154,7 +24196,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "AUS Inds Lifting Technician",
@@ -24175,7 +24217,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Administration & Stores Officer",
@@ -24217,7 +24259,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Mechanic/Technician",
@@ -24238,7 +24280,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "BMS Service Technician",
@@ -24259,7 +24301,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technician",
@@ -24280,7 +24322,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Decommissioning Data Centre Technician, Infrastructure Delivery, Infrastructure Delivery",
@@ -24322,7 +24364,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Repair Technician",
@@ -24343,7 +24385,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Fixtures Technician - Southern Sydney",
@@ -24364,7 +24406,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanical Engineering Technician",
@@ -24385,7 +24427,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Technician \u2013 Diesel Mechanic",
@@ -24406,7 +24448,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Heavy Equipment Mechanic",
@@ -24427,7 +24469,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "MPRO Lead Technician",
@@ -24448,7 +24490,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Fitter (AF214)",
@@ -24490,7 +24532,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician - Waymouth",
@@ -24511,7 +24553,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Senior Service Technician",
@@ -24532,7 +24574,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Truck Driver",
@@ -24637,7 +24679,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Refrigeration Technician",
@@ -24658,7 +24700,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Workshop Mechanic",
@@ -24679,7 +24721,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Mechanic",
@@ -24700,7 +24742,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Service Technician - Bunzl Safety & Lifting Gladstone",
@@ -24721,7 +24763,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Site Service Technician Level 1",
@@ -24742,7 +24784,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Field Supervisor",
@@ -24763,7 +24805,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "BMS Service Technician",
@@ -24784,7 +24826,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Machine Operator",
@@ -24826,7 +24868,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician/Lift Technician",
@@ -24868,7 +24910,7 @@
       "department": null,
       "employment_type": null,
       "description": "About Us\n\nDirect Lifts specialises in supply and install of modern, eye-catching lifts and elevators throughout the east coast of Australia. Working closely with architects, builders and property owners we collaborate and design lifts to suit our clients\u2019 requirements and decor.\n\nRole Overview\n\nDue to an expanding portfolio of projects, we are seeking dedicated, qualified professionals to join our team. Current opportunities include:\n\nElectricians / Lift Technicians: Responsible for installing a...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Technicians and Trade Assistants",
@@ -24994,7 +25036,7 @@
       "department": null,
       "employment_type": null,
       "description": "Are you ready to elevate your career in Melbourne? Join a nationally recognised home elevator company that sets the industry standard for excellence. We're proud to feature market-leading electric traction lifts, working exclusively with a top-tier supplier, ensuring top-quality products and unmatched installation support and training.\n\nWe are seeking an experienced Commissioning Technician to join our team.\n\nAbout the Role\n\nThis hands-on role is responsible for the commissioning, testing, and h...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service and Testing Technician (Electrical)",
@@ -25036,7 +25078,7 @@
       "department": null,
       "employment_type": null,
       "description": "Local Representative - Newcastle & Forster Region\nLocation: Newcastle & Forster, NSW\nPosition Type: Permanent\nReporting To: Service Branch Manager, Newcastle NSW\nPackage: $110k-$115k + Super + Car Allowance + Bonus\nVehicle: Fully maintained company vehicle and fuel card provided\n\nAbout the Role:\nWe are seeking an experienced Electrician/ Lift Technician to take on a Local Area Representative role within a global lift company. This role will cover the Newcastle and Forster regions.\n\nIn this role,...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - QLD",
@@ -25078,7 +25120,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted:\n\n2025-09-21\n\nCountry:\n\nAustralia\n\nLocation:\n\nLOC7038 : 9 & 13/4 Bronti Street, Mascot NSW 2020, Australia\n\nCome and join Electra today,.\n\nElectra Lift is a proudly Australian-owned elevator company with more than 45 years of proven industry experience.\n\nWe specialise in lift maintenance, modernisations, replacements, and new installations across Sydney. With our head office based in Mascot, NSW, we operate with a strong people-first culture, high technical expertise, and an unwaveri...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Mechanic",
@@ -25099,7 +25141,7 @@
       "department": null,
       "employment_type": null,
       "description": "**Date Posted:**\n\n2025-09-21\n\n**Country:**\n\nAustralia\n\n**Location:**\n\nLOC7038 : 9 & 13/4 Bronti Street, Mascot NSW 2020, Australia\n\nCome and join Electra today,.\n\nElectra Lift is a proudly Australian-owned elevator company with more than 45 years of proven industry experience.\n\nWe specialise in lift maintenance, modernisations, replacements, and new installations across Sydney. With our head office based in Mascot, NSW, we operate with a strong people-first culture, high technical expertise, and...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Technical Field Support - NSW",
@@ -25120,7 +25162,7 @@
       "department": null,
       "employment_type": null,
       "description": "WHY join Schindler?\n\nAt Schindler we are all about our culture! We focus on supporting our employees to meet their full potential by careful selection and constant development to make them a leader in their area. You will have the opportunity to grow and develop both personally and professionally whilst working with a great bunch of people. We offer job stability to our employees as we focus on promoting from within and foresee a growth trajectory of our business in the coming years.\n\nAbout the ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician Lift Repairs",
@@ -25162,7 +25204,7 @@
       "department": null,
       "employment_type": null,
       "description": "Login\nRegister\nPost job\nWhat?\nWhere?\nSearch\nAdvanced\nUnfortunately, this job is no longer available\nHey! \ud83d\udc4b\nWe hope your job hunt is going well! \ud83d\udcaa\nOur mission is to help you land that dream job with unique tools\nPopular Jobs \nJobseekers\nBrowse jobs\nBlog\nValueMyCV\nRecruiters\nPost a job\nAPI\nAdzuna\nAbout\nCareers\nContact\nPrivacy\nTerms & Conditions\nCountry selection\n\nAustralia\nchange\n\n\u00a9 2026 ADZUNA AUSTRALIA PTY LTD",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Technician",
@@ -25183,7 +25225,7 @@
       "department": null,
       "employment_type": null,
       "description": "About the role\n\nWe are looking for Electricians/Elevator Technicians.\n\nIf you have an Electrical Workers License and experience with electromechanical systems, please apply.\n\nFull-time Elevator Maintenance and Installation Technician roles available.\n\nBased in Perth, Western Australia.\n\nAs an Elevator Maintenance Technician, you will be responsible for the maintenance and repair of elevators, escalators, and other vertical transportation systems. This is a critical role in ensuring the safe and ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Service Technician",
@@ -25225,7 +25267,7 @@
       "department": null,
       "employment_type": null,
       "description": "Lift Mechanic\n\nJob Responsibilities:\n\nInstall, maintain, repair, and test various types of lifts and elevators\n\nPerform routine inspections to ensure lift safety and functionality\n\nTroubleshoot issues and accurately diagnose problems with lift components\n\nFollow safety protocols and regulations while working on lifts\n\nInteract with customers to understand and address their lift concerns\n\nEssential Qualifications:\n\nRecent full-time experience in this line of work. (presently employed)\n\nCompletion...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Industry ECW3 Mechanical Fitters",
@@ -25246,7 +25288,7 @@
       "department": null,
       "employment_type": null,
       "description": "Expression of Interest \u2013 Lift Industry ECW3 Mechanical Fitters\n\nLocation: Various Projects Across Melbourne, VIC\nEmployment Type: Casual / Project-Based\n\nAbout People 2U\n\nPeople 2U partners with some of Melbourne\u2019s leading construction and lift industry companies, connecting skilled tradespeople with quality projects across the city. We work closely with our clients to provide experienced Mechanical Fitters who contribute to the safe, efficient, and high-quality installation of lift systems.\n\nAs...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer and Electricians | Multiple roles",
@@ -25267,7 +25309,7 @@
       "department": null,
       "employment_type": null,
       "description": "About the role\n\nOur client is seeking an experienced Lift Installer who can install and assemble lift systems, including electrical and mechanical components.\n\nThey are also seeking an Electrican who can diagnose and troubleshoot electrical and mechanical issues with elevators.\n\nJobs are located across the suburbs of Sydney.\n\nThis is a full-time role from Monday to Friday.\n\nTasks and Responsibilities\n\nInstall, align and commission lift and elevator equipment (Lift Installer)\n\nManage materials an...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Mechanics based in Brisbane/Gold Coast",
@@ -25309,7 +25351,7 @@
       "department": null,
       "employment_type": null,
       "description": "Date Posted:\n\n2025-09-28\n\nCountry:\n\nAustralia\n\nLocation:\n\nLOC7060: Level 4, 19 Lang Parade, Milton, QLD 4064\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers!\n\nAt Otis, it\u2019s our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are currently looking for a Lift Installation Mechanic to be based in Brisbane, Queensland.\n\nAbout you\n\nYou will be the face of the O...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installation Mechanics based in Brisbane/Gold Coast",
@@ -25330,7 +25372,7 @@
       "department": null,
       "employment_type": null,
       "description": "**Date Posted:**\n\n2025-11-24\n\n**Country:**\n\nAustralia\n\n**Location:**\n\nLOC7060: Level 4, 19 Lang Parade, Milton, QLD 4064\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers!\n\nAt Otis, it's our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are currently looking for **Lift Installation Mechanics** to be based in **Brisbane or Gold Coast, Queensland.**\n\n**About...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician - Lift and Escalator Industry",
@@ -25603,7 +25645,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Elevator Technician",
@@ -25624,7 +25666,7 @@
       "department": null,
       "employment_type": null,
       "description": "",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Service Technician - Electrician or Lift Mechanic | ACT",
@@ -25666,7 +25708,7 @@
       "department": null,
       "employment_type": null,
       "description": "Join Victoria\u2019s Leading Independent Lift Company\n\nSouthern Lifts is seeking a qualified and experienced A-Grade Lift Technician to step directly into this role. This is a hands-on leadership position for a senior technician who can confidently manage installs, service work, commissioning and on-site teams across a variety of lift systems.\n\nNo juniors. No general electricians. This role is strictly for a proven, fully licensed Lift Technician ready to lead.\n\nAbout Southern Lifts\n\nWith over 23 yea...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -25708,7 +25750,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nLift Commissioner/Tester QLD\nKleemann Elevators Australia\n\u2013\nBrisbane QLD\nFull time\n13d ago, from seek.com.au\nApply on company site\nKLEEMANN Elevators Australia \u2013 Elevate Your Career!\n\nAt KLEEMANN Elevators Australia, we\u2019re not just in the lift business\u2014we\u2019re in the business of innovation, engineering excellence, and customer-first solutions. As a leading provider of world-class vertical transportation systems, we deliver cutting-edge, custom-engineered lifts for a diverse ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
@@ -25750,7 +25792,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nService & Maintenance Lift Technician | Full Time | Illawarra Base\nLifts for Life Pty Ltd\n\u2013\nAlbion Park Rail NSW\nFull time\n23d ago, from seek.com.au\nApply on company site\n\nWe\u2019re a well-established premium home lift company based in the Illawarra, seeking a Service & Maintenance Technician to service and maintain premium home lift systems across NSW & ACT.\n\nAbout the role\nThis role focuses on planned servicing, preventative maintenance, fault finding, and repairs on modern ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Maintenance Technician",
@@ -25771,7 +25813,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nMaintenance Technician\nKONE\n\u2013\nPerth WA\n2.3 from 83 reviews at SEEK\nFull time\n23d ago, from seek.com.au\nApply on company site\n\nGreat benefits - 2 RDO\u2019s per month, competitive base wage, overtime available\u00a0\u00a0\n\nWork with industry - leading products and technology\u00a0\n\nJoin a global organisation with a strong focus on training,\u00a0safety\u00a0and quality\u00a0\n\nAt KONE, we bring buildings to life.\u00a0\n\nThrough our technical\u00a0expertise\u00a0and digital connectivity, we provide an essential service to co...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift / Elevator Mechanic",
@@ -25792,7 +25834,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nLift / Elevator Mechanic\nCity Lifts\n\u2013\nPerth WA\n$57 - $85 an hour\nFull time\n24d ago, from seek.com.au\nApply on company site\n\nCity Lift Services has an opening for a Lift Mechanic within our Service/Repairs?Modernisation Department.\n\nWe encourage interstate applicants to apply as assistance with relocation costs is available to the right candidate.\n\nCity Lift Services specialises in the areas of service repairs and modernisation of elevator systems within Western Australia.\u00a0...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer",
@@ -25876,7 +25918,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nLift Installer & Fitter\nGrant Elevators\n\u2013\nPerth WA\nFull time\n21d ago, from seek.com.au\nApply on company site\n\nCompany\n\nGrant Elevator Sales Pty Ltd is a growing independent lift company specialising in the installation, modernisation, and servicing of passenger and commercial lifts across Western Australia. Due to continued project growth, we are seeking an experienced Elevator Installation Technician to join our installation team.\n\nThis is a hands-on field role suited to ...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer / Electrician or Mechanic \u2013 Career in the Elevator Industry",
@@ -25897,7 +25939,7 @@
       "department": null,
       "employment_type": null,
       "description": "The Company\nGoing Up is one of Australia's largest independent, Australian-owned elevator companies \u2014 proudly manufacturing, installing, servicing, and modernising lifts along the east coast.\n\nWith a strong pipeline of projects and a great team culture, we're expanding our Sydney installation team and looking for Lift Installers \u2014 including qualified Electricians, Mechanics, or Fitters who want to move into a specialised, long-term career in the elevator and lift industry.\n\nOur worksites are loc...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Mechanics - Brisbane (12 months fixed term contract)",
@@ -25918,7 +25960,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nLift Mechanics - Brisbane (12 months fixed term contract)\nOtis\n\u2013\nBrisbane QLD\n3.6 from 28 reviews at SEEK\nContract, Casual/Temporary\n28d ago, from seek.com.au\nApply on company site\n\nCome and join OTIS today and be part of the TIME 2025 World's Best Employers!\n\nAt Otis, it\u2019s our people that make us different. Join the Otis family where collaboration, innovation and empowerment help each individual and the company reach new heights.\n\nWe are currently looking for\u00a0Lift Install...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Installer - Electricians & Mechanics Welcome",
@@ -25939,7 +25981,7 @@
       "department": null,
       "employment_type": null,
       "description": "The Company:\nGoing Up is a leading independent, Australian-owned elevator company. We design, manufacture, install, service, and modernise lifts along the east coast.\n\nWith a strong project pipeline, we're expanding our Sydney installation crew. Our project sites are located throughout Sydney, with our office based in Brookvale. We welcome Electricians, Mechanics, or Fitters ready for a long-term career in a specialist trade.\n\nThe Role:\n\nAssemble, wire, and fit out lift systems from start to fin...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Installer or Lift Fitter",
@@ -25960,7 +26002,7 @@
       "department": null,
       "employment_type": null,
       "description": "Lift Fitter/Installer\nWe are also hiring a Lift Fitter / Installer to join our installation team. This role focuses on the mechanical installation of lifts and escalators, including new builds, refurbishments, and modernisation projects. You\u2019ll work closely with site managers, engineers, and other trades to ensure smooth project delivery.\n\nResponsibilities:\n\nInstall lifts, hoists, and escalators per manufacturer guidelines and technical drawings\n\nAssemble mechanical components: rails, shafts, mo...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Lift Fitter Installer",
@@ -26023,7 +26065,7 @@
       "department": null,
       "employment_type": null,
       "description": "Full-time",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Products & services",
@@ -26044,7 +26086,7 @@
       "department": null,
       "employment_type": null,
       "description": "Our products and services\n\nIt\u2019s our vision to help shape the cities of tomorrow, through technology and innovation. Our products and services are the cornerstone of this vision, engineered around providing urban mobility that\u2019s smart, inclusive, and sustainable.",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Our values",
@@ -26065,7 +26107,7 @@
       "department": null,
       "employment_type": null,
       "description": "Our values\nCustomers, Integrity & Trust, People, Quality, Safety, Sustainability\n\nSome things never go out of style. When you join the Schindler team, you\u2019ll be expected to adopt and live our core values, which include customer centricity, a deep-seated commitment to quality and sustainability, and an uncompromising focus on safety. Our values support everything we do and are fundamental to being a leader in the elevator and escalator industry.\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Inclusion and diversity",
@@ -26086,7 +26128,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nResponsibility\nPeople\nInclusion & Diversity\nInclusion & Diversity\n\"We are all in!\"\n\nOur global presence gives us access to the full spectrum of human diversity \u2013 reinforcing our ability to adapt and innovate.\n\nWe believe that where we work \u2013 both physical and virtual \u2013 must be inclusive in all aspects. It must be a place where we welcome people of all backgrounds and empower them to achieve great things - a place where we practice equity.\n\n\nWe appreciate the full scope of human differences,...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Why Schindler",
@@ -26107,7 +26149,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nCareers\nWhy Schindler\nWhy Schindler\n\nDiscover what makes us distinctive and find out what it's like to join our global team.\n\nApply now\nOur Employer Value Proposition\nWe Elevate... Your Career\n\nGrow a thriving career and build sustainable mobility solutions that enhance the quality of urban living.\n\n\nEnhancing quality of life\n\nOur elevators, escalators, and moving walks move more than 2 billion of us safely up and down buildings and across transportation hubs, every day. \u200b\n\nWith passion and...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Compensation and benefits",
@@ -26128,7 +26170,7 @@
       "department": null,
       "employment_type": null,
       "description": "Compensation and benefits\n\nCompensation plays an important role as part of the overall package we offer to our employees to ensure we attract, retain, and motivate the best people, but competitive salaries are only the start.\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Professional development",
@@ -26149,7 +26191,7 @@
       "department": null,
       "employment_type": null,
       "description": "Professional development\n\nThe key to maintaining our proud legacy of Swiss precision engineering, attention to detail, and quality is making sure that all our people \u2013 at every level \u2013 are trained and ready.\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Leadership growth",
@@ -26170,7 +26212,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nCareers\nWork and grow at Schindler\nLeadership growth\nLeadership growth\n\nWe strongly believe in fostering a corporate culture of continuous development and providing a platform where our employees can grow.\n\nApply now\nLeadership and business training\n\nWe offer an extensive range of in-classroom, virtual and digital programs, both on a global and local level, to enhance your knowledge of our business and level up your leadership skills. You will be empowered with the tools and knowledge neede...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Career development",
@@ -26191,7 +26233,7 @@
       "department": null,
       "employment_type": null,
       "description": "Career development\n\nWe prioritize career development, offering tailored paths for growth and advancement. Explore diverse roles, acquire new skills, and seize opportunities for progression within our global organization. Join us and embark on a rewarding journey of growth!\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "International careers",
@@ -26212,7 +26254,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nCareers\nWork and grow at Schindler\nInternational careers\nInternational careers\nBroadening horizons\n\nAccepting an international assignment allows you to grow your career while experiencing professional life abroad.\n\nApply now\nSee the world at Schindler\n\nThanks to our presence in over 100 countries, we offer many opportunities to work internationally at Schindler. The Elevator & Escalator industry is expanding at a rapid pace, and we need people who are open to working in cultures and regions...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Work-life balance",
@@ -26233,7 +26275,7 @@
       "department": null,
       "employment_type": null,
       "description": "Work-Life balance\nWhere professional meets personal\n\nOur commitment to our employees is to provide a friendly and transparent work environment where you can grow to your full potential, whatever your role.\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Students and graduates",
@@ -26254,7 +26296,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nCareers\nWho we look for\nStudents and graduates\nStudents and graduates\n\nDiscover our wide range of\u00a0apprenticeship, graduate, and internship\u00a0opportunities that will launch your career and support your professional growth.\n\nApply now\nOverview\nPreparation tips\nApprentices\n\nEmbark on a journey of skill development and growth with Schindler's Apprenticeship Programs. \u200bWhether you're passionate about electronics, mechanics, media, or\u00a0customer service, our global apprenticeship programs provide you...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Experienced professionals",
@@ -26275,7 +26317,7 @@
       "department": null,
       "employment_type": null,
       "description": "Experienced professionals\n\nExplore our open opportunities across various business functions, from engineering, IT, sales, and marketing, to communications, finance, quality management and HR, and embark on a thriving career with us.\u200b\n\nApply now",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Open positions",
@@ -26296,7 +26338,7 @@
       "department": null,
       "employment_type": null,
       "description": "We Elevate... Your Career\nA world of career opportunities awaits you!\nSchindler is present in more than 100 countries, and you can find a variety of opportunities in different positions, areas, cultures, and languages. Together, we\u2019re building the future, keeping the world moving, and making our urban spaces accessible and sustainable.\nReady to elevate your career? Shape your story at Schindler. Browse our current vacancies to find the right position for you. Apply today!\nSearch by Keyword \nSear...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Discover more",
@@ -26317,7 +26359,7 @@
       "department": null,
       "employment_type": null,
       "description": "Home\nCareers\nWho we look for\nExperienced professionals\nField Operations\nField Operations\n\nDevelop a thriving Field Operations career with us and help us improve the quality of life of our communities.\n\nApply now\nDiscover our typical available\u00a0roles in Field Operations\nService technician\n\nPlay an integral part in servicing our elevators and escalators while always ensuring safety and providing top-notch customer service.\u00a0\n\nApply now\nFitter\n\nPlay a key role in installing and assembling elevators a...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Trade Assistant - Residential Lift Installations (Sydney)",
@@ -26338,7 +26380,7 @@
       "department": null,
       "employment_type": null,
       "description": "What\nWhere\nSearch jobs\nTrade Assistant - Residential Lift Installations (Sydney)\nLift Shop Trust\n\u2013\nSydney NSW\nFull time, Permanent\n29d ago, from Lift Shop Trust\nApply on company site\nCalling all ambitious, mechanically-minded workers in Sydney!\n\nOn-the-job training provided, fuel card & toll allowance\nOpen to all tradespeople - multiple vacancies available\nMechanical mind and willingness to learn required!\nAre you ready to embark on an exciting journey of learning, growth, and great career oppor...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Electrician/Lift Service Technician",
@@ -26380,7 +26422,7 @@
       "department": null,
       "employment_type": null,
       "description": "Login\nRegister\nPost job\nWhat?\nWhere?\nSearch\nAdvanced\nUnfortunately, this job is no longer available\nHey! \ud83d\udc4b\nWe hope your job hunt is going well! \ud83d\udcaa\nOur mission is to help you land that dream job with unique tools\nPopular Jobs \nJobseekers\nBrowse jobs\nBlog\nValueMyCV\nRecruiters\nPost a job\nAPI\nAdzuna\nAbout\nCareers\nContact\nPrivacy\nTerms & Conditions\nCountry selection\n\nAustralia\nchange\n\n\u00a9 2026 ADZUNA AUSTRALIA PTY LTD",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Multiple Full-Time Roles Available \u2013Installers, Technicians & Trade Assistants",
@@ -26401,7 +26443,7 @@
       "department": null,
       "employment_type": null,
       "description": "The Company\nGoing Up is a fast-growing, Australian-owned elevator company operating across the east coast. We design, install, service, and modernise lifts and have built a strong reputation over 25+ years in the industry.\n\nAs we expand in Sydney, we\u2019re hiring for multiple roles across our Installation and Service teams. If you\u2019re reliable, mechanically minded, and want stable, full-time work with a great team \u2013 this could be for you.\n\nWe\u2019re Hiring For:\n\nLift Installers \u2013 Full-time roles install...",
-      "has_pdf": false
+      "has_pdf": true
     },
     {
       "title": "Service Technician",
