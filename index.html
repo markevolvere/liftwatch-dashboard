@@ -11,5 +11,111 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+    // UX Injections — Post-render enhancements
+    // Runs after React has rendered, using MutationObserver + click delegation.
+
+    // ── 1. Clickable company names on dashboard → navigate to /companies/:name ──
+    // ── 2. "New this week" quick-filter button on dashboard ──
+    // ── 3. Pagination "Showing X-Y of Z jobs" is already built in via React bundle ──
+    // (the bundle already renders "X–Y of Z jobs" text in the jobs explorer)
+
+    (function() {
+      let lastInjectedPath = '';
+
+      function injectDashboardEnhancements() {
+        const path = location.hash;
+        if (path !== '#/' && path !== '#' && path !== '') return;
+        if (lastInjectedPath === path + '_done') return;
+
+        // Find "Most Active Company" card text — make the company name clickable
+        const allText = document.querySelectorAll('.card');
+        allText.forEach(card => {
+          const label = card.querySelector('div');
+          if (!label) return;
+          const labelText = label.textContent || '';
+          if (!labelText.includes('Most Active Company')) return;
+
+          // Find the bold company name element (next sibling div)
+          const nameEl = card.querySelector('.text-xl.font-bold');
+          if (!nameEl || nameEl.dataset.linked) return;
+          nameEl.dataset.linked = '1';
+          const name = nameEl.textContent.trim();
+          if (name && name !== 'N/A') {
+            nameEl.style.cursor = 'pointer';
+            nameEl.style.color = '#60a5fa';
+            nameEl.title = `Filter jobs by ${name}`;
+            nameEl.addEventListener('click', (e) => {
+              e.stopPropagation();
+              location.hash = `/jobs?company=${encodeURIComponent(name)}`;
+            });
+          }
+        });
+
+        // Find competitor cards in Competitors tab — make company name headings clickable
+        document.querySelectorAll('.card h3').forEach(h3 => {
+          if (h3.dataset.linked) return;
+          const companyName = h3.textContent.trim();
+          if (!companyName || companyName === 'N/A') return;
+          const card = h3.closest('a, [class*="cursor-pointer"]');
+          if (!card) {
+            // Not already a link — make clickable
+            h3.dataset.linked = '1';
+            h3.style.cursor = 'pointer';
+            h3.addEventListener('click', (e) => {
+              e.stopPropagation();
+              location.hash = `/companies/${encodeURIComponent(companyName)}`;
+            });
+          }
+        });
+
+        // ── "New this week" quick-filter button on dashboard ──
+        // Find the stats row at the top of the dashboard and inject a button
+        const dashArea = document.querySelector('main');
+        if (!dashArea) return;
+
+        // Look for the dashboard heading
+        const dashHeadings = dashArea.querySelectorAll('h1');
+        let dashHeading = null;
+        dashHeadings.forEach(h => {
+          if (h.textContent.includes('Dashboard') || h.textContent.includes('LiftWatch')) dashHeading = h;
+        });
+        if (!dashHeading) return;
+
+        const parentSection = dashHeading.closest('div');
+        if (!parentSection || parentSection.dataset.weekBtnAdded) return;
+        parentSection.dataset.weekBtnAdded = '1';
+
+        const btn = document.createElement('button');
+        btn.textContent = '🗓 New this week';
+        btn.style.cssText = 'margin-top:8px;padding:6px 14px;background:rgba(59,130,246,0.15);border:1px solid rgba(59,130,246,0.4);color:#93c5fd;border-radius:8px;font-size:13px;cursor:pointer;transition:background .15s;';
+        btn.title = 'Show only jobs posted in the last 7 days';
+        btn.addEventListener('click', () => {
+          // Navigate to jobs with week filter pre-selected
+          location.hash = '/jobs';
+          // After navigation, try to trigger the week filter
+          setTimeout(() => {
+            const selects = document.querySelectorAll('select');
+            selects.forEach(sel => {
+              const weekOpt = Array.from(sel.options).find(o => o.value === 'week' || o.text === 'This Week');
+              if (weekOpt) {
+                sel.value = 'week';
+                sel.dispatchEvent(new Event('change', { bubbles: true }));
+              }
+            });
+          }, 400);
+        });
+
+        const headingParent = dashHeading.parentElement;
+        headingParent.appendChild(btn);
+        lastInjectedPath = path + '_done';
+      }
+
+      // Run on hash change and periodically (React renders async)
+      window.addEventListener('hashchange', () => { lastInjectedPath = ''; });
+      setInterval(injectDashboardEnhancements, 800);
+      injectDashboardEnhancements();
+    })();
+    </script>
   </body>
 </html>
